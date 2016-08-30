@@ -6,9 +6,9 @@
            review="android-review.googlesource.com" />
     <default revision="refs/tags/android-7.0.0_r1" remote="aosp" sync-j="16" />
 
-    <remote name="xyyx"
-	fetch="https://github.com/xyyx"
-	sync-j="16"/>
+    <remote name="nos"
+           fetch="https://github.com/nitrogen-project"
+           sync-j="16"/>
 
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" />
   <project path="build/kati" name="platform/build/kati" groups="pdk,tradefed" />
@@ -270,7 +270,6 @@
   <project path="external/zopfli" name="platform/external/zopfli" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/zxing" name="platform/external/zxing" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/av" name="platform/frameworks/av" groups="pdk" />
-  <project path="frameworks/base" name="platform/frameworks/base" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" />
@@ -323,7 +322,6 @@
   <project path="hardware/intel/img/psb_video" name="platform/hardware/intel/img/psb_video" groups="intel" />
   <project path="hardware/intel/sensors" name="platform/hardware/intel/sensors" groups="intel_sensors" />
   <project path="hardware/invensense" name="platform/hardware/invensense" groups="invensense" />
-  <project path="hardware/libhardware" name="platform/hardware/libhardware" groups="pdk" />
   <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" groups="pdk" />
   <project path="hardware/marvell/bt" name="platform/hardware/marvell/bt" groups="marvell_bt" />
   <project path="hardware/qcom/bootctrl" name="platform/hardware/qcom/bootctrl" groups="pdk" />
@@ -382,7 +380,6 @@
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" groups="pdk-fs" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" groups="pdk-fs" />
   <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" groups="pdk-fs" />
-  <project path="packages/apps/Settings" name="platform/packages/apps/Settings" groups="pdk-fs" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" groups="pdk-fs" />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" groups="pdk-fs" />
   <project path="packages/apps/SpeechRecorder" name="platform/packages/apps/SpeechRecorder" groups="pdk-fs" />
@@ -491,31 +488,46 @@
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
 
 
-    <!---xyyx-->
+    <!---nitrogen-project-->
 
-    <project path="build" name="android_build" groups="pdk" remote="xyyx" revision="n" >
+    <project path="build" name="android_build" groups="pdk" remote="nos" revision="n" >
 	<copyfile src="core/root.mk" dest="Makefile" />
     </project>
 
-    <project path="bionic" name="android_bionic" remote="xyyx" revision="n" />
+    <project path="bionic" name="android_bionic" remote="nos" revision="n" />
+
+    <!-- Frameworks -->
+    <project path="frameworks/base" name="android_frameworks_base" remote="nos" revision="n" />
 
     <!-- System -->
-    <project path="system/core" name="android_system_core" remote="xyyx" revision="n" />
-    <project path="system/sepolicy" name="android_system_sepolicy" remote="xyyx" revision="n" />
+    <project path="system/core" name="android_system_core" remote="nos" revision="n" />
+    <project path="system/sepolicy" name="android_system_sepolicy" remote="nos" revision="n" />
+
+    <!-- Packages -->
 
     <!-- Hardware -->
-    <project path="hardware/qcom/audio" name="android_hardware_qcom_audio" remote="xyyx" revision="n" />
-    <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="xyyx" revision="n" />
+    <project path="hardware/libhardware" name="android_hardware_libhardware" remote="nos" revision="n" />
+    <project path="hardware/qcom/audio" name="android_hardware_qcom_audio" remote="nos" revision="n" />
+    <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="nos" revision="n" />
 
     <!-- Apps -->
-    <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="xyyx" revision="n" />
+    <project path="packages/apps/LockClock" name="android_packages_apps_LockClock" remote="nos" revision="n" />
+    <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="nos" revision="n" />
+    <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="nos" revision="n" />
+
+    <!-- External -->
+    <project path="external/google" name="android_external_google" remote="nos" revision="n" />
+    <project path="external/busybox" name="android_external_busybox" remote="nos" revision="n" />
+
+    <!-- Nitrogen OS Vendor -->
+    <project path="vendor/nitrogen" name="vendor_nitrogen" remote="nos" revision= "n" />
 
     <!-- Device -->
-    <project path="device/lge/geehrc" name="android_device_lge_geehrc" remote="xyyx" revision="n" />
+    <project path="device/lge/geehrc" name="android_device_lge_geehrc" remote="nos" revision="n" />
 
     <!-- Kernel -->
-    <project path="kernel/lge/geehrc" name="android_kernel_lge_geehrc" remote="xyyx" revision="n" />
+    <project path="kernel/lge/geehrc" name="android_kernel_lge_geehrc" remote="nos" revision="n" />
 
     <!-- Blobs -->
-    <project path="vendor/lge/geehrc" name="android_vendor_lge_geehrc" remote="xyyx" revision="n" />
+    <project path="vendor/lge/geehrc" name="android_vendor_lge_geehrc" remote="nos" revision="n" />
 </manifest>
