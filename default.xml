@@ -358,7 +358,6 @@
   <project path="packages/apps/ContactsCommon" name="platform/packages/apps/ContactsCommon" groups="pdk-fs" />
   <project path="packages/apps/DeskClock" name="platform/packages/apps/DeskClock" groups="pdk-fs" />
   <project path="packages/apps/DevCamera" name="platform/packages/apps/DevCamera" groups="pdk" />
-  <project path="packages/apps/Dialer" name="platform/packages/apps/Dialer" groups="pdk-fs" />
   <project path="packages/apps/Email" name="platform/packages/apps/Email" groups="pdk-fs" />
   <project path="packages/apps/EmergencyInfo" name="platform/packages/apps/EmergencyInfo" />
   <project path="packages/apps/ExactCalculator" name="platform/packages/apps/ExactCalculator" groups="pdk-fs" />
@@ -376,7 +375,6 @@
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" groups="pdk-fs" />
   <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" groups="pdk-fs" />
   <project path="packages/apps/Phone" name="platform/packages/apps/Phone" groups="pdk-fs" />
-  <project path="packages/apps/PhoneCommon" name="platform/packages/apps/PhoneCommon" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" groups="pdk-fs" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" groups="pdk-fs" />
   <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" groups="pdk-fs" />
@@ -391,8 +389,6 @@
   <project path="packages/apps/TV" name="platform/packages/apps/TV" />
   <project path="packages/apps/UnifiedEmail" name="platform/packages/apps/UnifiedEmail" groups="pdk-fs" />
   <project path="packages/experimental" name="platform/packages/experimental" />
-  <project path="packages/inputmethods/LatinIME" name="platform/packages/inputmethods/LatinIME" groups="pdk-fs" />
-  <project path="packages/inputmethods/OpenWnn" name="platform/packages/inputmethods/OpenWnn" groups="pdk-fs" />
   <project path="packages/providers/ApplicationsProvider" name="platform/packages/providers/ApplicationsProvider" groups="pdk-fs" />
   <project path="packages/providers/BlockedNumberProvider" name="platform/packages/providers/BlockedNumberProvider" groups="pdk-fs" />
   <project path="packages/providers/BookmarkProvider" name="platform/packages/providers/BookmarkProvider" groups="pdk-fs" />
@@ -504,15 +500,18 @@
     <project path="system/sepolicy" name="android_system_sepolicy" remote="nos" revision="n" />
 
     <!-- Packages -->
-
+    <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" remote="nos" revision="n" />
+	
     <!-- Hardware -->
     <project path="hardware/libhardware" name="android_hardware_libhardware" remote="nos" revision="n" />
     <project path="hardware/qcom/audio" name="android_hardware_qcom_audio" remote="nos" revision="n" />
     <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="nos" revision="n" />
 
     <!-- Apps -->
+    <project path="packages/apps/Dialer" name="android_packages_apps_Dialer" remote="nos" revision="n" />
     <project path="packages/apps/LockClock" name="android_packages_apps_LockClock" remote="nos" revision="n" />
     <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="nos" revision="n" />
+    <project path="packages/apps/PhoneCommon" name="android_packages_apps_PhoneCommon" remote="nos" revision="n" />
     <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="nos" revision="n" />
 
     <!-- External -->
