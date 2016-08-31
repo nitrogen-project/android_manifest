@@ -13,9 +13,12 @@ Then to sync up:
 
 Build command is
 
-    ./build.sh device -j#
+	cd nitrogen
+    . builder.sh
 
 
-Supported Devices
+Official supported Devices
 
-   LG Optimus G - e975, e975k, e975r, e975t, e977, e987, f180s, f180l, f180k, ls970
+   LG Optimus G - E975/F180/LS970 GEEHRC/GEEHRC4G/GEESPR
+
+   Google Nexus 5 - D820/D821 HAMMERHEAD
