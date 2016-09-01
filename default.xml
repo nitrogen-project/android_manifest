@@ -517,6 +517,7 @@
     <project path="packages/apps/LockClock" name="android_packages_apps_LockClock" remote="nos" revision="n" />
     <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="nos" revision="n" />
     <project path="packages/apps/NitrogenSettings" name="android_packages_apps_NitrogenSettings" remote="nos" revision="n" />
+	<project path="packages/apps/NitrogenWallpapers" name="android_packages_apps_NitrogenWallpapers" remote="nos" revision="n" />
     <project path="packages/apps/PhoneCommon" name="android_packages_apps_PhoneCommon" remote="nos" revision="n" />
     <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="nos" revision="n" />
 
