@@ -527,7 +527,7 @@
     <project path="external/skia" name="android_external_skia" remote="nos" revision="n" />
 
     <!-- Nitrogen OS Vendor -->
-    <project path="vendor/nitrogen" name="vendor_nitrogen" remote="nos" revision= "n" >
+    <project path="vendor/nitrogen" name="android_vendor_nitrogen" remote="nos" revision= "n" >
         <linkfile src="builder.sh" dest="builder.sh" />
     </project>
 
