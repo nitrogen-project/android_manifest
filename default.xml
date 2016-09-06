@@ -373,7 +373,6 @@
     <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" groups="pdk-fs" />
     <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" groups="pdk-fs" />
     <project path="packages/apps/SpeechRecorder" name="platform/packages/apps/SpeechRecorder" groups="pdk-fs" />
-    <project path="packages/apps/Stk" name="platform/packages/apps/Stk" groups="apps_stk,pdk-fs" />
     <project path="packages/apps/Tag" name="platform/packages/apps/Tag" groups="pdk-fs" />
     <project path="packages/apps/Terminal" name="platform/packages/apps/Terminal" groups="pdk-fs" />
     <project path="packages/apps/Test/connectivity" name="platform/packages/apps/Test/connectivity" />
@@ -526,6 +525,7 @@
     <project path="packages/apps/NitrogenWallpapers" name="android_packages_apps_NitrogenWallpapers" remote="nos" revision="n" />
     <project path="packages/apps/PhoneCommon" name="android_packages_apps_PhoneCommon" remote="nos" revision="n" />
     <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="nos" revision="n" />
+    <project path="packages/apps/Stk" name="android_packages_apps_Stk" remote="nos" revision="n" />
 
     <!-- External -->
     <project path="external/google" name="android_external_google" remote="nos" revision="n" />
