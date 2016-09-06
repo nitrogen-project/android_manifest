@@ -511,6 +511,7 @@
     <project path="hardware/qcom/msm8x74" name="android_hardware_qcom_msm8x74" remote="nos" revision="n" />
 
     <!-- Apps -->
+    <project path="packages/apps/Browser" name="android_packages_apps_Browser" remote="nos" revision="n" />
     <project path="packages/apps/Calendar" name="android_packages_apps_Calendar" remote="nos" revision="n" />
     <project path="packages/apps/Contacts" name="android_packages_apps_Contacts" remote="nos" revision="n" />
     <project path="packages/apps/ContactsCommon" name="android_packages_apps_ContactsCommon" remote="nos" revision="n" />
