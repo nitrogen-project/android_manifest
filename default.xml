@@ -342,7 +342,6 @@
     <project path="libnativehelper" name="platform/libnativehelper" groups="pdk" />
     <project path="ndk" name="platform/ndk" groups="generic_fs" />
     <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" groups="pdk-cw-fs,pdk-fs" />
-    <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" groups="pdk-cw-fs,pdk-fs" />
     <project path="packages/apps/Browser2" name="platform/packages/apps/Browser2" />
     <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" groups="pdk-fs" />
     <project path="packages/apps/CarrierConfig" name="platform/packages/apps/CarrierConfig" groups="pdk-fs" />
@@ -437,7 +436,6 @@
     <project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk" />
     <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" />
     <project path="sdk" name="platform/sdk" groups="pdk-cw-fs,pdk-fs" />
-    <project path="system/bt" name="platform/system/bt" groups="pdk" />
     <project path="system/ca-certificates" name="platform/system/ca-certificates" groups="pdk" />
     <project path="system/connectivity/apmanager" name="platform/system/connectivity/apmanager" />
     <project path="system/connectivity/dhcp_client" name="platform/system/connectivity/dhcp_client" />
@@ -491,6 +489,7 @@
     <project path="frameworks/support" name="android_frameworks_support" remote="nos" revision="n" />
 
     <!-- System -->
+    <project path="system/bt" name="android_system_bt" remote="nos" revision="n" />
     <project path="system/core" name="android_system_core" remote="nos" revision="n" />
     <project path="system/sepolicy" name="android_system_sepolicy" remote="nos" revision="n" />
 
@@ -508,6 +507,7 @@
     <project path="hardware/qcom/msm8x74" name="android_hardware_qcom_msm8x74" remote="nos" revision="n" />
 
     <!-- Apps -->
+    <project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" remote="nos" revision="n" />
     <project path="packages/apps/Browser" name="android_packages_apps_Browser" remote="nos" revision="n" />
     <project path="packages/apps/Calendar" name="android_packages_apps_Calendar" remote="nos" revision="n" />
     <project path="packages/apps/Camera2" name="android_packages_apps_Camera2" remote="nos" revision="n" />
