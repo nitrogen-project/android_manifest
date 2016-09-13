@@ -452,7 +452,6 @@
     <project path="system/tools/aidl" name="platform/system/tools/aidl" groups="pdk-cw-fs,pdk-fs" />
     <project path="system/tpm" name="platform/system/tpm" />
     <project path="system/update_engine" name="platform/system/update_engine" />
-    <project path="system/vold" name="platform/system/vold" groups="pdk" />
     <project path="system/weaved" name="platform/system/weaved" />
     <project path="system/webservd" name="platform/system/webservd" />
     <project path="toolchain/binutils" name="toolchain/binutils" />
@@ -492,6 +491,7 @@
     <project path="system/bt" name="android_system_bt" remote="nos" revision="n" />
     <project path="system/core" name="android_system_core" remote="nos" revision="n" />
     <project path="system/sepolicy" name="android_system_sepolicy" remote="nos" revision="n" />
+    <project path="system/vold" name="android_system_vold" remote="nos" revision="n" />
 
     <!-- Packages -->
     <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" remote="nos" revision="n" />
@@ -529,8 +529,11 @@
     <project path="packages/apps/Terminal" name="android_packages_apps_Terminal" remote="nos" revision="n" />
 
     <!-- External -->
-    <project path="external/google" name="android_external_google" remote="nos" revision="n" />
     <project path="external/busybox" name="android_external_busybox" remote="nos" revision="n" />
+    <project path="external/exfat" name="android_external_exfat" remote="nos" revision="n" />
+    <project path="external/fuse" name="android_external_fuse" remote="nos" revision="n" />
+    <project path="external/google" name="android_external_google" remote="nos" revision="n" />
+    <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="nos" revision="n" />
     <project path="external/skia" name="android_external_skia" remote="nos" revision="n" />
 
     <!-- Nitrogen OS Vendor -->
