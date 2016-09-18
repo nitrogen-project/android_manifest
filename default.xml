@@ -440,7 +440,6 @@
     <project path="system/connectivity/apmanager" name="platform/system/connectivity/apmanager" />
     <project path="system/connectivity/dhcp_client" name="platform/system/connectivity/dhcp_client" />
     <project path="system/connectivity/shill" name="platform/system/connectivity/shill" />
-    <project path="system/extras" name="platform/system/extras" groups="pdk" />
     <project path="system/firewalld" name="platform/system/firewalld" />
     <project path="system/gatekeeper" name="platform/system/gatekeeper" groups="pdk" />
     <project path="system/keymaster" name="platform/system/keymaster" groups="pdk" />
@@ -490,6 +489,7 @@
     <!-- System -->
     <project path="system/bt" name="android_system_bt" remote="nos" revision="n" />
     <project path="system/core" name="android_system_core" remote="nos" revision="n" />
+    <project path="system/extras" name="android_system_extras" remote="nos" revision="n" />
     <project path="system/sepolicy" name="android_system_sepolicy" remote="nos" revision="n" />
     <project path="system/vold" name="android_system_vold" remote="nos" revision="n" />
 
