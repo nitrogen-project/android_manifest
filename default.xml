@@ -16,7 +16,6 @@
 
     <!-- AOSP -->
     <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" />
-    <project path="build/kati" name="platform/build/kati" groups="pdk,tradefed" />
     <project path="build/soong" name="platform/build/soong" groups="pdk,tradefed" >
         <linkfile src="root.bp" dest="Android.bp" />
         <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
@@ -475,6 +474,7 @@
     <project path="build" name="android_build" groups="pdk" remote="nos" revision="n" >
         <copyfile src="core/root.mk" dest="Makefile" />
     </project>
+    <project path="build/kati" name="android_build_kati" remote="nos" revision="n" />
 
     <!-- Other -->
     <project path="bionic" name="android_bionic" remote="nos" revision="n" />
