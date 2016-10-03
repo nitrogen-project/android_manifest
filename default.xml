@@ -521,6 +521,7 @@
     <project path="packages/apps/masquerade" name="TeamSubstratum/masquerade" remote="github" revision="master" />
     <project path="packages/apps/Messaging" name="android_packages_apps_Messaging" remote="nos" revision="n" />
     <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="nos" revision="n" />
+    <project path="packages/apps/NitrogenOTA" name="android_packages_apps_NitrogenOTA" remote="nos" revision="n" />
     <project path="packages/apps/NitrogenSettings" name="android_packages_apps_NitrogenSettings" remote="nos" revision="n" />
     <project path="packages/apps/NitrogenWallpapers" name="android_packages_apps_NitrogenWallpapers" remote="nos" revision="n" />
     <project path="packages/apps/PhoneCommon" name="android_packages_apps_PhoneCommon" remote="nos" revision="n" />
