@@ -530,6 +530,7 @@
     <project path="packages/apps/Terminal" name="android_packages_apps_Terminal" remote="nos" revision="n" />
 
     <!-- External -->
+    <project path="external/android-snackbar" name="android_external_android-snackbar" remote="nos" revision="n" />
     <project path="external/busybox" name="android_external_busybox" remote="nos" revision="n" />
     <project path="external/exfat" name="android_external_exfat" remote="nos" revision="n" />
     <project path="external/fuse" name="android_external_fuse" remote="nos" revision="n" />
