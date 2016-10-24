@@ -44,7 +44,7 @@ To initialize your local repository use
 Then to sync up:
 ----------------
 
-    repo sync
+    repo sync -j 16
 
 Build command is
 ----------------
