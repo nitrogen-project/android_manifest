@@ -5,7 +5,7 @@
         fetch="https://android.googlesource.com"
         review="android-review.googlesource.com" />
 
-    <default revision="refs/tags/android-7.1.0_r7" remote="aosp" sync-j="16" />
+    <default revision="refs/tags/android-7.1.1_r4" remote="aosp" sync-j="16" />
 
     <remote name="nos"
         fetch="https://github.com/nitrogen-project"
