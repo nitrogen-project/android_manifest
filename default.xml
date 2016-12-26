@@ -253,8 +253,6 @@
     <project path="external/testng" name="platform/external/testng" groups="pdk" />
     <project path="external/tcpdump" name="platform/external/tcpdump" groups="pdk,pdk-cw-fs,pdk-fs" />
     <project path="external/timezonepicker-support" name="platform/external/timezonepicker-support" groups="pdk-cw-fs,pdk-fs" />
-    <project path="external/tinyalsa" name="platform/external/tinyalsa" groups="pdk" />
-    <project path="external/tinycompress" name="platform/external/tinycompress" groups="pdk" />
     <project path="external/tinyxml" name="platform/external/tinyxml" groups="pdk" />
     <project path="external/tinyxml2" name="platform/external/tinyxml2" groups="pdk" />
     <project path="external/tlsdate" name="platform/external/tlsdate" />
@@ -271,7 +269,6 @@
     <project path="external/vulkan-validation-layers" name="platform/external/vulkan-validation-layers" />
     <project path="external/webp" name="platform/external/webp" groups="pdk,qcom_msm8x26" />
     <project path="external/webrtc" name="platform/external/webrtc" groups="pdk" />
-    <project path="external/wpa_supplicant_8" name="platform/external/wpa_supplicant_8" groups="pdk" />
     <project path="external/xmlrpcpp" name="platform/external/xmlrpcpp" groups="pdk" />
     <project path="external/xmlwriter" name="platform/external/xmlwriter" groups="pdk-cw-fs,pdk-fs" />
     <project path="external/xmp_toolkit" name="platform/external/xmp_toolkit" groups="pdk-cw-fs,pdk-fs" />
@@ -327,10 +324,7 @@
     <project path="hardware/intel/img/psb_video" name="platform/hardware/intel/img/psb_video" groups="intel" />
     <project path="hardware/intel/sensors" name="platform/hardware/intel/sensors" groups="intel_sensors" />
     <project path="hardware/invensense" name="platform/hardware/invensense" groups="invensense" />
-    <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" groups="pdk" />
     <project path="hardware/marvell/bt" name="platform/hardware/marvell/bt" groups="marvell_bt" />
-    <project path="hardware/qcom/bootctrl" name="platform/hardware/qcom/bootctrl" groups="pdk" />
-    <project path="hardware/qcom/camera" name="platform/hardware/qcom/camera" groups="qcom" />
     <project path="hardware/qcom/msm8960" name="platform/hardware/qcom/msm8960" groups="qcom_msm8960" />
     <project path="hardware/qcom/msm8994" name="platform/hardware/qcom/msm8994" groups="qcom_msm8994" />
     <project path="hardware/qcom/msm8996" name="platform/hardware/qcom/msm8996" groups="qcom_msm8996" />
@@ -338,8 +332,6 @@
     <project path="hardware/qcom/msm8x27" name="platform/hardware/qcom/msm8x27" groups="qcom_msm8x27" />
     <project path="hardware/qcom/msm8x84" name="platform/hardware/qcom/msm8x84" groups="qcom_msm8x84" />
     <project path="hardware/qcom/power" name="platform/hardware/qcom/power" groups="qcom" />
-    <project path="hardware/qcom/wlan" name="platform/hardware/qcom/wlan" groups="qcom_wlan" />
-    <project path="hardware/ril" name="platform/hardware/ril" groups="pdk" />
     <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" groups="omap3" />
     <project path="hardware/ti/omap4-aah" name="platform/hardware/ti/omap4-aah" groups="omap4-aah" />
     <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" groups="omap4" />
@@ -446,9 +438,7 @@
     <project path="system/firewalld" name="platform/system/firewalld" />
     <project path="system/gatekeeper" name="platform/system/gatekeeper" groups="pdk" />
     <project path="system/keymaster" name="platform/system/keymaster" groups="pdk" />
-    <project path="system/media" name="platform/system/media" groups="pdk" />
     <project path="system/nativepower" name="platform/system/nativepower" />
-    <project path="system/netd" name="platform/system/netd" groups="pdk" />
     <project path="system/nvram" name="platform/system/nvram" />
     <project path="system/security" name="platform/system/security" groups="pdk" />
     <project path="system/tools/aidl" name="platform/system/tools/aidl" groups="pdk-cw-fs,pdk-fs" />
@@ -473,7 +463,7 @@
     <!--
         Nitrogen OS by Nitrogen Project
     -->
-    <project path="build" name="android_build" groups="pdk" remote="nos" revision="n2" >
+    <project path="build" name="android_build" groups="pdk" remote="nos" revision="n2-caf" >
         <copyfile src="core/root.mk" dest="Makefile" />
     </project>
     <project path="build/kati" name="android_build_kati" remote="nos" revision="n2" />
@@ -484,18 +474,21 @@
     <project path="bootable/recovery" name="android_bootable_recovery" remote="nos" revision="n2" />
 
     <!-- Frameworks -->
-    <project path="frameworks/av" name="android_frameworks_av" remote="nos" revision="n2" />
+    <project path="frameworks/av" name="android_frameworks_av" remote="nos" revision="n2-caf" />
     <project path="frameworks/base" name="android_frameworks_base" remote="nos" revision="n2" />
-    <project path="frameworks/native" name="android_frameworks_native" remote="nos" revision="n2" />
+    <project path="frameworks/native" name="android_frameworks_native" remote="nos" revision="n2-caf" />
     <project path="frameworks/support" name="android_frameworks_support" remote="nos" revision="n2" />
 
     <!-- System -->
-    <project path="system/bt" name="android_system_bt" remote="nos" revision="n2" />
-    <project path="system/core" name="android_system_core" remote="nos" revision="n2" />
-    <project path="system/extras" name="android_system_extras" remote="nos" revision="n2" />
-    <project path="system/sepolicy" name="android_system_sepolicy" remote="nos" revision="n2" />
+    <project path="system/bt" name="android_system_bt" remote="nos" revision="n2-caf" />
+    <project path="system/core" name="android_system_core" remote="nos" revision="n2-caf" />
+    <project path="system/extras" name="android_system_extras" remote="nos" revision="n2-caf" />
+    <project path="system/media" name="android_system_media" groups="pdk" remote="nos" revision="n2-caf" />
+    <project path="system/netd" name="android_system_netd" groups="pdk" remote="nos" revision="n2-caf" />
+    <project path="system/sepolicy" name="android_system_sepolicy" remote="nos" revision="n2-caf" />
     <project path="external/skia" name="android_external_skia" remote="nos" revision="n2" />
-    <project path="system/vold" name="android_system_vold" remote="nos" revision="n2" />
+    <project path="system/vold" name="android_system_vold" remote="nos" revision="n2-caf" />
+    <project path="system/qcom" name="android_system_qcom" remote="nos" revision="n2-caf" />
 
     <!-- Packages -->
     <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" remote="nos" revision="n2" />
@@ -504,13 +497,21 @@
 
     <!-- Hardware -->
     <project path="hardware/broadcom/wlan" name="android_hardware_broadcom_wlan" remote="nos" revision="n2" />
-    <project path="hardware/libhardware" name="android_hardware_libhardware" remote="nos" revision="n2" />
-    <project path="hardware/qcom/audio" name="android_hardware_qcom_audio" remote="nos" revision="n2" />
-    <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" remote="nos" revision="n2" />
-    <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="nos" revision="n2" />
-    <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="nos" revision="n2" />
-    <project path="hardware/qcom/keymaster" name="android_hardware_qcom_keymaster" remote="nos" revision="n2" />
-    <project path="hardware/qcom/media" name="android_hardware_qcom_media" remote="nos" revision="n2" />
+    <project path="hardware/libhardware" name="android_hardware_libhardware" remote="nos" revision="n2-caf" />
+    <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="nos" revision="n2-caf" />
+    <project path="hardware/qcom/audio/default" name="android_hardware_qcom_audio" remote="nos" revision="n2-caf" />
+    <project path="hardware/qcom/audio-caf/msm8952" name="android_hardware_qcom_audio" remote="nos" revision="n2-caf-8952" />
+    <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" remote="nos" revision="n2-caf" />
+    <project path="hardware/qcom/bootctrl" name="android_hardware_qcom_bootctrl" remote="nos" revision="n2-caf" />
+    <project path="hardware/qcom/camera" name="android_hardware_qcom_camera" remote="nos" revision="n2-caf" />
+    <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="nos" revision="n2-caf" />
+    <project path="hardware/qcom/display-caf/msm8952" name="android_hardware_qcom_display" remote="nos" revision="n2-caf-8952" />
+    <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="nos" revision="n2-caf" />
+    <project path="hardware/qcom/keymaster" name="android_hardware_qcom_keymaster" remote="nos" revision="n2-caf" />
+    <project path="hardware/qcom/media" name="android_hardware_qcom_media" remote="nos" revision="n2-caf" />
+    <project path="hardware/qcom/media-caf/msm8952" name="android_hardware_qcom_media" remote="nos" revision="n2-caf-8952" />
+    <project path="hardware/ril" name="android_hardware_ril" remote="nos" revision="n2-caf" />
+    <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" remote="nos" revision="n2-caf" />
     <project path="hardware/qcom/msm8x74" name="android_hardware_qcom_msm8x74" remote="nos" revision="n2" />
 
     <!-- Apps -->
@@ -547,19 +548,37 @@
     <project path="external/exfat" name="android_external_exfat" remote="nos" revision="n2" />
     <project path="external/fuse" name="android_external_fuse" remote="nos" revision="n2" />
     <project path="external/google" name="android_external_google" remote="nos" revision="n2" />
+    <project path="external/libnetfilter_conntrack" name="android_external_libnetfilter_conntrack" remote="nos" revision="n2-caf" />
+    <project path="external/libnfnetlink" name="android_external_libnfnetlink" remote="nos" revision="n2-caf" />
     <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="nos" revision="n2" />
+    <project path="external/tinyalsa" name="android_external_tinyalsa" groups="pdk" remote="nos" revision="n2-caf" />
+    <project path="external/tinycompress" name="android_external_tinycompress" groups="pdk" remote="nos" revision="n2-caf" />
+    <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" groups="pdk" remote="nos" revision="n2-caf" />
+
+    <!-- CAF  -->
+    <project path="external/ant-wireless/ant_native" name="android_external_ant-wireless_ant_native" remote="nos" revision="n2-caf" />
+    <project path="external/ant-wireless/ant_service" name="android_external_ant-wireless_ant_service" remote="nos" revision="n2-caf" />
+    <project path="external/ant-wireless/antradio-library" name="android_external_ant-wireless_antradio-library" remote="nos" revision="n2-caf" />
+    <project path="device/qcom/common" name="android_device_qcom_common" remote="nos" revision="n2-caf" />
+    <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="nos" revision="n2-caf" />
+    <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="nos" revision="n2-caf" />
+    <project path="vendor/qcom/opensource/dataservices" name="android_vendor_qcom_opensource_dataservices" remote="nos" revision="n2-caf" />
+    <project path="vendor/qcom/opensource/dpm" name="android_vendor_qcom_opensource_dpm" remote="nos" revision="n2-caf" />
+    <project path="vendor/qcom/opensource/time-services" name="android_vendor_qcom_opensource_time-services" remote="nos" revision="n2-caf" />
 
     <!-- Nitrogen OS Vendor -->
-    <project path="vendor/nitrogen" name="android_vendor_nitrogen" remote="nos" revision="n2" >
+    <project path="vendor/nitrogen" name="android_vendor_nitrogen" remote="nos" revision="n2-caf" >
         <linkfile src="builder.sh" dest="builder.sh" />
     </project>
 
     <!-- Device -->
-    <project path="device/lge/geehrc" name="android_device_lge_geehrc" remote="nos" revision="n2" />
+
+    <project path="device/xiaomi/kenzo" name="android_device_xiaomi_kenzo" remote="nos" revision="n2-caf" />
+    <project path="device/xiaomi/msm8956-common" name="android_device_xiaomi_msm8956-common" remote="nos" revision="n2-caf" />
 
     <!-- Kernel -->
-    <project path="kernel/lge/geehrc" name="android_kernel_lge_geehrc" remote="nos" revision="n2" />
+    <project path="kernel/xiaomi/msm8956" name="android_kernel_xiaomi_msm8956" remote="nos" revision="n2-caf" />
 
     <!-- Blobs -->
-    <project path="vendor/lge/geehrc" name="android_vendor_lge_geehrc" remote="nos" revision="n2" />    
+    <project path="vendor/xiaomi" name="proprietary_vendor_xiaomi" remote="nos" revision="n2-caf" />
 </manifest>
