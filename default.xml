@@ -385,7 +385,6 @@
     <project path="packages/screensavers/WebView" name="platform/packages/screensavers/WebView" groups="pdk-fs" />
     <project path="packages/services/Car" name="platform/packages/services/Car" groups="adp8064,pdk-cw-fs,pdk-fs" />
     <project path="packages/services/Mms" name="platform/packages/services/Mms" groups="pdk-cw-fs,pdk-fs" />
-    <project path="packages/services/Telecomm" name="platform/packages/services/Telecomm" groups="pdk-cw-fs,pdk-fs" />
     <project path="packages/wallpapers/LivePicker" name="platform/packages/wallpapers/LivePicker" groups="pdk-fs" />
     <project path="pdk" name="platform/pdk" groups="pdk" />
     <project path="platform_testing" name="platform/platform_testing" />
@@ -493,7 +492,8 @@
     <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" remote="nos" revision="n2" />
     <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" remote="nos" revision="n2" />
     <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="nos" revision="n2" />
-
+    <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="nos" revision="n2" />
+    
     <!-- Hardware -->
     <project path="hardware/broadcom/wlan" name="android_hardware_broadcom_wlan" remote="nos" revision="n2" />
     <project path="hardware/libhardware" name="android_hardware_libhardware" remote="nos" revision="n2-caf" />
