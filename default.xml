@@ -168,7 +168,6 @@
     <project path="external/libogg" name="platform/external/libogg" groups="pdk" />
     <project path="external/libopus" name="platform/external/libopus" groups="pdk" />
     <project path="external/libpcap" name="platform/external/libpcap" groups="pdk,pdk-cw-fs,pdk-fs" />
-    <project path="external/libphonenumber" name="platform/external/libphonenumber" groups="pdk-cw-fs,pdk-fs" />
     <project path="external/libpng" name="platform/external/libpng" groups="pdk" />
     <project path="external/libselinux" name="platform/external/libselinux" groups="pdk" />
     <project path="external/libunwind" name="platform/external/libunwind" groups="pdk" />
@@ -553,6 +552,7 @@
     <project path="external/google" name="android_external_google" remote="nos" revision="n2" />
     <project path="external/libnetfilter_conntrack" name="android_external_libnetfilter_conntrack" remote="nos" revision="n2-caf" />
     <project path="external/libnfnetlink" name="android_external_libnfnetlink" remote="nos" revision="n2-caf" />
+    <project path="external/libphonenumber" name="android_external_libphonenumber" remote="nos" revision="n2" />
     <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="nos" revision="n2" />
     <project path="external/tinyalsa" name="android_external_tinyalsa" groups="pdk" remote="nos" revision="n2-caf" />
     <project path="external/tinycompress" name="android_external_tinycompress" groups="pdk" remote="nos" revision="n2-caf" />
