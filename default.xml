@@ -5,7 +5,7 @@
         fetch="https://android.googlesource.com"
         review="android-review.googlesource.com" />
 
-    <default revision="refs/tags/android-7.1.1_r12" remote="aosp" sync-j="16" />
+    <default revision="refs/tags/android-7.1.1_r22" remote="aosp" sync-j="16" />
 
     <remote name="nos"
         fetch="https://github.com/nitrogen-project"
@@ -492,7 +492,6 @@
     <project path="system/core" name="android_system_core" remote="nos" revision="n2" />
     <project path="system/extras" name="android_system_extras" remote="nos" revision="n2" />
     <project path="system/sepolicy" name="android_system_sepolicy" remote="nos" revision="n2" />
-    <project path="external/skia" name="android_external_skia" remote="nos" revision="n2" />
     <project path="system/vold" name="android_system_vold" remote="nos" revision="n2" />
 
     <!-- Packages -->
@@ -549,6 +548,7 @@
     <project path="external/google" name="android_external_google" remote="nos" revision="n2" />
     <project path="external/libphonenumber" name="android_external_libphonenumber" remote="nos" revision="n2" />
     <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="nos" revision="n2" />
+    <project path="external/skia" name="android_external_skia" remote="nos" revision="n2" />
 
     <!-- Nitrogen OS Vendor -->
     <project path="vendor/nitrogen" name="android_vendor_nitrogen" remote="nos" revision="n2" >
