@@ -63,4 +63,4 @@ Official supported Devices
    
    Google Nexus 5X - BULLHEAD - Nazmul.rr
 
-   Google Nexus 6 - XT1100 SHAMU - Nazmul.rr
+   Google Nexus 6 - XT1100 SHAMU - nitin.chobhe
