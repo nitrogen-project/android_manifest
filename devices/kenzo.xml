@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="nos" revision="n2"/>
+  <project path="device/xiaomi/kenzo" name="android_device_xiaomi_kenzo" remote="nos" revision="n2"/>
+  <project path="external/ant-wireless/ant_native" name="android_external_ant-wireless_ant_native" remote="nos" revision="n2"/>
+  <project path="external/ant-wireless/ant_service" name="android_external_ant-wireless_ant_service" remote="nos" revision="n2"/>
+  <project path="external/libnetfilter_conntrack" name="android_external_libnetfilter_conntrack" remote="nos" revision="n2"/>
+  <project path="external/libnfnetlink" name="android_external_libnfnetlink" remote="nos" revision="n2"/>
+  <project path="hardware/qcom/camera" name="android_hardware_qcom_camera" remote="nos" revision="n2-8952"/>
+  <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" remote="nos" revision="n2-8952"/>
+  <project path="kernel/xiaomi/kenzo" name="android_kernel_xiaomi_kenzo" remote="nos" revision="n2"/>
+  <project path="packages/apps/Snap" name="android_packages_apps_Snap" remote="nos" revision="n2-caf"/>
+  <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="android_vendor_qcom_opensource_data-ipa-cfg-mgr" remote="nos" revision="n2"/>
+  <project path="vendor/qcom/opensource/dataservices" name="android_vendor_qcom_opensource_dataservices" remote="nos" revision="n2"/>
+  <project path="vendor/qcom/opensource/fm" name="android_vendor_qcom_opensource_fm" remote="nos" revision="n2"/>
+  <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="nos" revision="n2-caf" />
+  <project path="vendor/xiaomi/kenzo" name="android_vendor_xiaomi_kenzo" remote="nos" revision="n2"/>
+</manifest>

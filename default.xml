@@ -329,7 +329,6 @@
     <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" groups="pdk" />
     <project path="hardware/marvell/bt" name="platform/hardware/marvell/bt" groups="marvell_bt" />
     <project path="hardware/qcom/bootctrl" name="platform/hardware/qcom/bootctrl" groups="pdk" />
-    <project path="hardware/qcom/camera" name="platform/hardware/qcom/camera" groups="qcom" />
     <project path="hardware/qcom/msm8960" name="platform/hardware/qcom/msm8960" groups="qcom_msm8960" />
     <project path="hardware/qcom/msm8994" name="platform/hardware/qcom/msm8994" groups="qcom_msm8994" />
     <project path="hardware/qcom/msm8996" name="platform/hardware/qcom/msm8996" groups="qcom_msm8996" />
@@ -337,7 +336,6 @@
     <project path="hardware/qcom/msm8x27" name="platform/hardware/qcom/msm8x27" groups="qcom_msm8x27" />
     <project path="hardware/qcom/msm8x84" name="platform/hardware/qcom/msm8x84" groups="qcom_msm8x84" />
     <project path="hardware/qcom/power" name="platform/hardware/qcom/power" groups="qcom" />
-    <project path="hardware/qcom/wlan" name="platform/hardware/qcom/wlan" groups="qcom_wlan" />
     <project path="hardware/ril" name="platform/hardware/ril" groups="pdk" />
     <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" groups="omap3" />
     <project path="hardware/ti/omap4-aah" name="platform/hardware/ti/omap4-aah" groups="omap4-aah" />
@@ -503,12 +501,12 @@
     <!-- Hardware -->
     <project path="hardware/broadcom/wlan" name="android_hardware_broadcom_wlan" remote="nos" revision="n2" />
     <project path="hardware/libhardware" name="android_hardware_libhardware" remote="nos" revision="n2" />
-    <project path="hardware/qcom/audio" name="android_hardware_qcom_audio" remote="nos" revision="n2" />
-    <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" remote="nos" revision="n2" />
-    <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="nos" revision="n2" />
-    <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="nos" revision="n2" />
+    <project path="hardware/qcom/audio" name="android_hardware_qcom_audio" remote="nos" revision="n2-8952" />
+    <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" remote="nos" revision="n2-8952" />
+    <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="nos" revision="n2-8952" />
+    <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="nos" revision="n2-8952" />
     <project path="hardware/qcom/keymaster" name="android_hardware_qcom_keymaster" remote="nos" revision="n2" />
-    <project path="hardware/qcom/media" name="android_hardware_qcom_media" remote="nos" revision="n2" />
+    <project path="hardware/qcom/media" name="android_hardware_qcom_media" remote="nos" revision="n2-8952" />
     <project path="hardware/qcom/msm8x74" name="android_hardware_qcom_msm8x74" remote="nos" revision="n2" />
 
     <!-- Apps -->
@@ -562,5 +560,8 @@
     <project path="kernel/lge/geehrc" name="android_kernel_lge_geehrc" remote="nos" revision="n2" />
 
     <!-- Blobs -->
-    <project path="vendor/lge/geehrc" name="android_vendor_lge_geehrc" remote="nos" revision="n2" />    
+    <project path="vendor/lge/geehrc" name="android_vendor_lge_geehrc" remote="nos" revision="n2" />
+
+    <include name="devices/kenzo.xml" />
+
 </manifest>
