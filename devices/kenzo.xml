@@ -16,4 +16,5 @@
   <project path="vendor/qcom/opensource/fm" name="android_vendor_qcom_opensource_fm" remote="nos" revision="n2"/>
   <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="nos" revision="n2-caf" />
   <project path="vendor/xiaomi/kenzo" name="android_vendor_xiaomi_kenzo" remote="nos" revision="n2"/>
+  <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="nos" revision="n2" />
 </manifest>
