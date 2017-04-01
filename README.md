@@ -56,3 +56,5 @@ Official supported Devices
 -----------------
 
    Xiaomi Note 3 Pro Standart/Prime - kenzo - xyyx
+   ZTE Axon7 - axon7 - aclegg2011
+   
