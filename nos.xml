@@ -30,6 +30,9 @@
     <!-- system -->
     <project path="system/core" name="android_system_core" remote="nos" revision="o" />
 
+    <!-- hardware -->
+    <project path="hardware/interfaces" name="android_hardware_interfaces" remote="nos" revision="o" />
+
     <!-- frameworks -->
     <project path="frameworks/base" name="android_frameworks_base" remote="nos" revision="o" />
     <project path="frameworks/native" name="android_frameworks_native" remote="nos" revision="o" />
