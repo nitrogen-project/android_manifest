@@ -27,8 +27,14 @@
 
     <project path="bionic" name="android_bionic" remote="nos" revision="o"/>
 
+    <!-- external -->
+    <project path="external/exfat" name="android_external_exfat" remote="nos" revision="o" />
+    <project path="external/fuse" name="android_external_fuse" remote="nos" revision="o" />
+    <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="nos" revision="o" />
+
     <!-- system -->
     <project path="system/core" name="android_system_core" remote="nos" revision="o" />
+    <project path="system/vold" name="android_system_vold" remote="nos" revision="o" />
 
     <!-- hardware -->
     <project path="hardware/interfaces" name="android_hardware_interfaces" remote="nos" revision="o" />
