@@ -10,6 +10,9 @@
         sync-j="16"/>
 
 
+    <!-- device -->
+    <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="nos" revision="o"/>
+
     <!-- external -->
     <project path="external/ant-wireless/antradio-library" name="android_external_ant-wireless_antradio-library" remote="nos" revision="o" />
     <project path="external/libnfnetlink" name="android_external_libnfnetlink" remote="nos" revision="o" />
