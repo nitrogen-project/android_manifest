@@ -46,6 +46,7 @@
 
     <!-- packages -->
     <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" remote="nos" revision="o" />
+    <project path="packages/apps/NitrogenSettings" name="android_packages_apps_NitrogenSettings" remote="nos" revision="o" />
     <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="nos" revision="o" />
 
     <!-- services -->
