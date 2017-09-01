@@ -30,6 +30,7 @@
     <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="android_vendor_qcom_opensource_data-ipa-cfg-mgr" remote="nos" revision="o" />
     <project path="vendor/qcom/opensource/dataservices" name="android_vendor_qcom_opensource_dataservices" remote="nos" revision="o" />
     <project path="vendor/qcom/opensource/fm" name="android_vendor_qcom_opensource_fm" remote="nos" revision="o" />
+    <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="nos" revision="o" />
 
     <!-- kenzo -->
     <project path="device/xiaomi/kenzo" name="android_device_xiaomi_kenzo" remote="nos" revision="o" />
