@@ -42,6 +42,7 @@
     <project path="hardware/interfaces" name="android_hardware_interfaces" remote="nos" revision="o" />
 
     <!-- frameworks -->
+    <project path="frameworks/av" name="android_frameworks_av" remote="nos" revision="o" />
     <project path="frameworks/base" name="android_frameworks_base" remote="nos" revision="o" />
     <project path="frameworks/native" name="android_frameworks_native" remote="nos" revision="o" />
     <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="nos" revision="o" />
