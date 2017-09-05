@@ -606,7 +606,4 @@
 
   <!-- Add all tracked Nitrogen repos -->
   <include name="nos.xml" />
-
-  <!-- Add all tracked Kenzo repos -->
-  <include name="kenzo.xml" />
 </manifest>
