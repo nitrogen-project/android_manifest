@@ -55,6 +55,7 @@
 
     <!-- services -->
     <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="nos" revision="o" />
+    <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="nos" revision="o" />
 
     <!-- vendor -->
     <project path="vendor/nitrogen" name="android_vendor_nitrogen" remote="nos" revision="o" />

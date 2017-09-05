@@ -109,6 +109,7 @@
   <remove-project name="platform/packages/inputmethods/OpenWnn" />
 
   <!-- Service repos -->
-  <remove-project name="platform/packages/services/Telephony"/>
+  <remove-project name="platform/packages/services/Telephony" />
+  <remove-project name="platform/packages/services/Telecomm" />
 
 </manifest>
