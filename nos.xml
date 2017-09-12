@@ -54,6 +54,7 @@
     <project path="packages/apps/Messaging" name="android_packages_apps_Messaging" remote="nos" revision="o" />
     <project path="packages/apps/NitrogenSettings" name="android_packages_apps_NitrogenSettings" remote="nos" revision="o" />
     <project path="packages/apps/OmniJaws" name="android_packages_services_OmniJaws" remote="nos" revision="o" />
+    <project path="packages/apps/PackageInstaller" name="android_packages_apps_PackageInstaller" remote="nos" revision="o" />
     <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="nos" revision="o" />
 
     <!-- services -->
