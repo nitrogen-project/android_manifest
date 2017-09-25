@@ -36,6 +36,7 @@
 
     <!-- system -->
     <project path="system/core" name="android_system_core" remote="nos" revision="o" />
+    <project path="system/extras" name="android_system_extras" remote="nos" revision="o" />
     <project path="system/vold" name="android_system_vold" remote="nos" revision="o" />
 
     <!-- hardware -->
