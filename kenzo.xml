@@ -37,4 +37,6 @@
     <project path="vendor/xiaomi/kenzo" name="android_vendor_xiaomi_kenzo" remote="nos" revision="o" />
     <project path="kernel/xiaomi/kenzo" name="android_kernel_xiaomi_kenzo" remote="nos" revision="o" />
 
+    <!-- package -->
+    <project path="packages/apps/Snap" name="android_packages_apps_Snap" remote="nos" revision="o" />
 </manifest>
