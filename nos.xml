@@ -35,6 +35,7 @@
     <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="nos" revision="o" />
 
     <!-- system -->
+    <project path="system/bt" name="android_system_bt" remote="nos" revision="o" />
     <project path="system/core" name="android_system_core" remote="nos" revision="o" />
     <project path="system/extras" name="android_system_extras" remote="nos" revision="o" />
     <project path="system/vold" name="android_system_vold" remote="nos" revision="o" />
