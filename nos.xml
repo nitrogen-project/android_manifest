@@ -32,6 +32,7 @@
     <!-- external -->
     <project path="external/exfat" name="android_external_exfat" remote="nos" revision="o" />
     <project path="external/fuse" name="android_external_fuse" remote="nos" revision="o" />
+    <project path="external/libphonenumber" name="android_external_libphonenumber" remote="nos" revision="o" />
     <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="nos" revision="o" />
 
     <!-- system -->

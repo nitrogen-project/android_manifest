@@ -43,6 +43,9 @@
 
   <remove-project name="kernel/tests" />
 
+  <!-- External repos -->
+  <remove-project name="platform/external/libphonenumber" />
+
   <!-- System repos -->
   <remove-project name="platform/system/bt" />
   <remove-project name="platform/system/core" />
