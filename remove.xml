@@ -69,6 +69,7 @@
   <!-- External repos -->
   <remove-project name="platform/external/libnfnetlink" />
   <remove-project name="platform/external/libnetfilter_conntrack" />
+  <remove-project name="platform/external/libphonenumber" />
 
   <!-- System repos -->
   <remove-project name="platform/system/bt" />
