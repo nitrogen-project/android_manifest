@@ -34,6 +34,7 @@
     <project path="external/fuse" name="android_external_fuse" remote="nos" revision="o" />
     <project path="external/libphonenumber" name="android_external_libphonenumber" remote="nos" revision="o" />
     <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="nos" revision="o" />
+    <project path="external/wpa_supplicant_8" name="android_wpa_supplicant_8" remote="nos" revision="o" />
 
     <!-- system -->
     <project path="system/bt" name="android_system_bt" remote="nos" revision="o" />
