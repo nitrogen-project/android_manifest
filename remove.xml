@@ -45,6 +45,7 @@
 
   <!-- External repos -->
   <remove-project name="platform/external/libphonenumber" />
+  <remove-project name="platform/external/wpa_supplicant_8" />
 
   <!-- System repos -->
   <remove-project name="platform/system/bt" />
