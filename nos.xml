@@ -30,6 +30,7 @@
     <project path="bootable/recovery" name="android_bootable_recovery" remote="nos" revision="o" />
 
     <!-- external -->
+    <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="nos" revision="o" />
     <project path="external/exfat" name="android_external_exfat" remote="nos" revision="o" />
     <project path="external/fuse" name="android_external_fuse" remote="nos" revision="o" />
     <project path="external/libphonenumber" name="android_external_libphonenumber" remote="nos" revision="o" />
