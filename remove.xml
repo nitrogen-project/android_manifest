@@ -53,6 +53,7 @@
   <remove-project name="platform/system/core" />
   <remove-project name="platform/system/extras" />
   <remove-project name="platform/system/hwservicemanager" />
+  <remove-project name="platform/system/sepolicy" />
   <remove-project name="platform/system/vold" />
 
   <!-- Framework repos -->
