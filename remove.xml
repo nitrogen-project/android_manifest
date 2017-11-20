@@ -68,16 +68,19 @@
 
   <!-- External repos -->
   <remove-project name="platform/external/e2fsprogs" />
-  <remove-project name="platform/external/libnfnetlink" />
-  <remove-project name="platform/external/libnetfilter_conntrack" />
   <remove-project name="platform/external/libphonenumber" />
   <remove-project name="platform/external/wpa_supplicant_8" />
+  <remove-project name="platform/external/tinycompress" />
 
   <!-- System repos -->
   <remove-project name="platform/system/bt" />
   <remove-project name="platform/system/core" />
   <remove-project name="platform/system/extras" />
+  <remove-project name="platform/system/hardware/interfaces" />
   <remove-project name="platform/system/hwservicemanager" />
+  <remove-project name="platform/system/media" />
+  <remove-project name="platform/system/netd" />
+  <remove-project name="platform/system/nfc" />
   <remove-project name="platform/system/sepolicy" />
   <remove-project name="platform/system/vold" />
 
@@ -95,6 +98,8 @@
   <remove-project name="platform/hardware/qcom/media" />
   <remove-project name="platform/hardware/qcom/wlan" />
   <remove-project name="platform/hardware/interfaces" />
+  <remove-project name="platform/hardware/libhardware" />
+  <remove-project name="platform/hardware/ril" />
 
   <!-- Package repos -->
   <remove-project name="platform/packages/apps/Bluetooth" />
