@@ -13,6 +13,7 @@
     <project path="external/ant-wireless/antradio-library" name="android_external_ant-wireless_antradio-library" remote="nos" revision="o" />
     <project path="external/ant-wireless/ant_native" name="android_external_ant-wireless_ant_native" remote="nos" revision="o" />
     <project path="external/ant-wireless/ant_service" name="android_external_ant-wireless_ant_service" remote="nos" revision="o" />
+    <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="nos" revision="o" />
 
     <!-- hardware -->
     <project path="hardware/qcom/audio-caf-msm8996" name="android_hardware_qcom_audio-caf-msm8996" remote="nos" revision="o-8996" />
