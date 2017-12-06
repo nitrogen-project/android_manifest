@@ -38,7 +38,7 @@ GIT config (nickname, e-mail)
 To initialize your local repository use
 ---------------------------------------
 
-    repo init -u https://github.com/nitrogen-project/android_manifest.git -b o
+    repo init -u https://github.com/nitrogen-project/android_manifest.git -b o2
     
 
 Then to sync up:
@@ -54,13 +54,3 @@ Build command is
 
 Official supported Devices
 -----------------
-
-   LG Optimus G - E975/F180/LS970 GEEHRC/GEEHRC4G/GEESPR - xyyx
-
-   Google Nexus 4 - E960 MAKO/OCCAM - nitin.chobhe
-
-   Google Nexus 5 - D820/D821 HAMMERHEAD - Mr.MEX
-   
-   Google Nexus 5X - BULLHEAD - Nazmul.rr
-
-   Google Nexus 6 - XT1100 SHAMU - nitin.chobhe
