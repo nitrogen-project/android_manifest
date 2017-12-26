@@ -55,13 +55,17 @@
     <!-- hardware -->
     <project path="hardware/interfaces" name="android_hardware_interfaces" remote="nos" revision="o2" />
     <project path="hardware/libhardware" name="android_hardware_libhardware" remote="nos" revision="o2" />
+    <project path="hardware/qcom/audio" name="android_hardware_qcom_audio" remote="nos" revision="o2" />
     <project path="hardware/qcom/audio-caf-msm8952" name="android_hardware_qcom_audio-caf-msm8952" remote="nos" revision="o2-8952" />
     <project path="hardware/qcom/audio-caf-msm8996" name="android_hardware_qcom_audio-caf-msm8996" remote="nos" revision="o2-8996" />
     <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" remote="nos" revision="o2" />
+    <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="nos" revision="o2" />
     <project path="hardware/qcom/display-caf-msm8952" name="android_hardware_qcom_display-caf-msm8952" remote="nos" revision="o2-8952" />
     <project path="hardware/qcom/display-caf-msm8996" name="android_hardware_qcom_display-caf-msm8996" remote="nos" revision="o2-8996" />
+    <project path="hardware/qcom/media" name="android_hardware_qcom_media" remote="nos" revision="o2" />
     <project path="hardware/qcom/media-caf-msm8952" name="android_hardware_qcom_media-caf-msm8952" remote="nos" revision="o2-8952" />
     <project path="hardware/qcom/media-caf-msm8996" name="android_hardware_qcom_media-caf-msm8996" remote="nos" revision="o2-8996" />
+    <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="nos" revision="o2" />
     <project path="hardware/ril" name="android_hardware_ril" remote="nos" revision="o2" />
 
     <!-- frameworks -->
