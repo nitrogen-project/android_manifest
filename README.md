@@ -48,9 +48,10 @@ Then to sync up:
 
 Build command is
 ----------------
-
-    cd ~/nitrogen
-    . builder.sh
+    export JACK_SERVER_VM_ARGUMENTS="-Dfile.encoding=UTF-8 -XX:+TieredCompilation -Xmx4000m"
+    . build/envsetup.sh
+    lunch nitrogen_oneplus3-userdebug or lunch nitrogen_kenzo-userdebug
+    make -j 7 otapackage
 
 Official supported Devices
 -----------------
