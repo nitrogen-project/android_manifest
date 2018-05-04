@@ -110,9 +110,10 @@
     <project path="kernel/oneplus/msm8996" name="android_kernel_oneplus_msm8996" remote="nos" revision="o2" />
 
     <!-- kenzo -->
-    <project path="device/xiaomi/kenzo" name="android_device_xiaomi_kenzo" remote="nos" revision="o2" />
-    <project path="vendor/xiaomi/kenzo" name="android_vendor_xiaomi_kenzo" remote="nos" revision="o2" />
-    <project path="kernel/xiaomi/kenzo" name="android_kernel_xiaomi_kenzo" remote="nos" revision="o2" />
+    <project path="device/xiaomi/kenzo" name="android_device_xiaomi_kenzo" remote="nos" revision="o2_new" />
+    <project path="device/xiaomi/msm8956-common" name="android_device_xiaomi_msm8956-common" remote="nos" revision="o2_new" />
+    <project path="vendor/xiaomi" name="proprietary_vendor_xiaomi" remote="nos" revision="o2_new" />
+    <project path="kernel/xiaomi/kenzo" name="android_kernel_xiaomi_kenzo" remote="nos" revision="o2_new" />
 
     <!-- qcom -->
     <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="nos" revision="o2" />
