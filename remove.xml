@@ -2,8 +2,7 @@
 <manifest>
 
   <!-- Device repos -->
-  <remove-project name="device/asus/fugu" />
-  <remove-project name="device/asus/fugu-kernel" />
+  <remove-project name="device/common" />
   <remove-project name="device/generic/car" />
   <remove-project name="device/generic/armv7-a-neon" />
   <remove-project name="device/generic/arm64" />
@@ -26,8 +25,9 @@
   <remove-project name="device/google/accessory/demokit" />
   <remove-project name="device/google/atv" />
   <remove-project name="device/google/contexthub" />
-  <remove-project name="device/google/dragon" />
-  <remove-project name="device/google/dragon-kernel" />
+  <remove-project name="device/google/cuttlefish" />
+  <remove-project name="device/google/cuttlefish_common" />
+  <remove-project name="device/google/cuttlefish_kernel" />
   <remove-project name="device/google/marlin" />
   <remove-project name="device/google/marlin-kernel" />
   <remove-project name="device/google/muskie" />
@@ -35,10 +35,6 @@
   <remove-project name="device/google/wahoo" />
   <remove-project name="device/google/wahoo-kernel" />
   <remove-project name="device/google/vrservices" />
-  <remove-project name="device/huawei/angler" />
-  <remove-project name="device/huawei/angler-kernel" />
-  <remove-project name="device/lge/bullhead" />
-  <remove-project name="device/lge/bullhead-kernel" />
   <remove-project name="device/linaro/bootloader/arm-trusted-firmware" />
   <remove-project name="device/linaro/bootloader/edk2" />
   <remove-project name="device/linaro/bootloader/OpenPlatformPkg" />
@@ -48,69 +44,39 @@
 
   <!-- General repos -->
   <remove-project name="platform/build" />
-  <remove-project name="platform/build/kati" />
   <remove-project name="platform/build/soong" />
   <remove-project name="platform/bionic" />
-  <remove-project name="platform/bootable/recovery" />
   <remove-project name="kernel/tests" />
 
   <!-- External repos -->
-  <remove-project name="platform/external/libphonenumber" />
   <remove-project name="platform/external/tinycompress" />
 
   <!-- System repos -->
   <remove-project name="platform/system/bt" />
   <remove-project name="platform/system/core" />
-  <remove-project name="platform/system/extras" />
-  <remove-project name="platform/system/hwservicemanager" />
-  <remove-project name="platform/system/media" />
-  <remove-project name="platform/system/nfc" />
-  <remove-project name="platform/system/sepolicy" />
-  <remove-project name="platform/system/vold" />
 
   <!-- Framework repos -->
   <remove-project name="platform/frameworks/av" />
   <remove-project name="platform/frameworks/base" />
-  <remove-project name="platform/frameworks/native" />
-  <remove-project name="platform/frameworks/opt/telephony" />
-  <remove-project name="platform/frameworks/opt/net/wifi" />
 
   <!-- Hardware repos -->
   <remove-project name="platform/hardware/qcom/audio" />
   <remove-project name="platform/hardware/qcom/display" />
   <remove-project name="platform/hardware/qcom/media" />
   <remove-project name="platform/hardware/qcom/gps" />
-  <remove-project name="platform/hardware/interfaces" />
   <remove-project name="platform/hardware/libhardware" />
-  <remove-project name="platform/hardware/qcom/bt" />
-  <remove-project name="platform/hardware/ril" />
 
   <!-- Package repos -->
-  <remove-project name="platform/packages/apps/Bluetooth" />
   <remove-project name="platform/packages/apps/Browser2" />
-  <remove-project name="platform/packages/apps/DeskClock" />
   <remove-project name="platform/packages/apps/DevCamera" />
-  <remove-project name="platform/packages/apps/Dialer" />
-  <remove-project name="platform/packages/apps/Gallery" />
-  <remove-project name="platform/packages/apps/Gallery2" />
   <remove-project name="platform/packages/apps/LegacyCamera" />
   <remove-project name="platform/packages/apps/Launcher2" />
-  <remove-project name="platform/packages/apps/Launcher3" />
-  <remove-project name="platform/packages/apps/Messaging" />
-  <remove-project name="platform/packages/apps/Music" />
-  <remove-project name="platform/packages/apps/PackageInstaller" />
   <remove-project name="platform/packages/apps/Protips" />
   <remove-project name="platform/packages/apps/QuickSearchBox" />
-  <remove-project name="platform/packages/apps/Settings" />
   <remove-project name="platform/packages/apps/SpareParts" />
-  <remove-project name="platform/packages/apps/Terminal" />
   <remove-project name="platform/packages/apps/Test/connectivity" />
   <remove-project name="platform/packages/inputmethods/OpenWnn" />
-  <remove-project name="platform/packages/inputmethods/LatinIME" />
-  <remove-project name="platform/packages/providers/DownloadProvider" />
 
   <!-- Service repos -->
-  <remove-project name="platform/packages/services/Telephony" />
-  <remove-project name="platform/packages/services/Telecomm" />
 
 </manifest>

@@ -38,7 +38,7 @@ GIT config (nickname, e-mail)
 To initialize your local repository use
 ---------------------------------------
 
-    repo init -u https://github.com/nitrogen-project/android_manifest.git -b o2
+    repo init -u https://github.com/nitrogen-project/android_manifest.git -b p
     
 
 Then to sync up:
@@ -48,9 +48,8 @@ Then to sync up:
 
 Build command is
 ----------------
-    export JACK_SERVER_VM_ARGUMENTS="-Dfile.encoding=UTF-8 -XX:+TieredCompilation -Xmx4000m"
     . build/envsetup.sh
-    lunch nitrogen_oneplus3-userdebug or lunch nitrogen_kenzo-userdebug
+    lunch nitrogen_oneplus3-userdebug
     make -j 7 otapackage
 
 Official supported Devices
