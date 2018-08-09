@@ -27,6 +27,7 @@
 
     <project path="bionic" name="android_bionic" remote="nos" revision="p"/>
 
+    <project path="bootable/recovery" name="android_bootable_recovery" remote="nos" revision="p" />
 
     <!-- external -->
     <project path="external/tinycompress" name="android_external_tinycompress" remote="nos" revision="p" />
