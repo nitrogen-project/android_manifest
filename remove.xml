@@ -47,6 +47,7 @@
   <remove-project name="platform/build/soong" />
   <remove-project name="platform/bionic" />
   <remove-project name="kernel/tests" />
+  <remove-project name="platform/prebuilts/build-tools" />
 
   <!-- External repos -->
   <remove-project name="platform/external/tinycompress" />
@@ -58,6 +59,7 @@
   <!-- Framework repos -->
   <remove-project name="platform/frameworks/av" />
   <remove-project name="platform/frameworks/base" />
+  <remove-project name="platform/frameworks/compile/mclinker" />
 
   <!-- Hardware repos -->
   <remove-project name="platform/hardware/qcom/audio" />

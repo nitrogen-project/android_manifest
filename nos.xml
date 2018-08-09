@@ -48,8 +48,12 @@
     <!-- frameworks -->
     <project path="frameworks/av" name="android_frameworks_av" remote="nos" revision="p" />
     <project path="frameworks/base" name="android_frameworks_base" remote="nos" revision="p" />
+    <project path="frameworks/compile/mclinker" name="android_frameworks_compile_mclinker" remote="nos" revision="p" />
 
     <!-- packages -->
+
+    <!-- prebuilts -->
+    <project path="prebuilts/build-tools" name="android_prebuilts_build-tools" remote="nos" revision="p" />
 
     <!-- services -->
 
