@@ -60,6 +60,7 @@
   <remove-project name="platform/frameworks/av" />
   <remove-project name="platform/frameworks/base" />
   <remove-project name="platform/frameworks/compile/mclinker" />
+  <remove-project name="platform/frameworks/opt/telephony" />
 
   <!-- Hardware repos -->
   <remove-project name="platform/hardware/qcom/audio" />
