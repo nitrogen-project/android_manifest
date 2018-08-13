@@ -70,6 +70,7 @@
   <remove-project name="platform/hardware/qcom/gps" />
   <remove-project name="platform/hardware/libhardware" />
   <remove-project name="platform/hardware/nxp/nfc" />
+  <remove-project name="platform/hardware/interfaces" />
 
   <!-- Package repos -->
   <remove-project name="platform/packages/apps/Browser2" />
