@@ -56,6 +56,8 @@
     <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="nos" revision="p" />
 
     <!-- packages -->
+    <project path="packages/apps/NitrogenSettings" name="android_packages_apps_NitrogenSettings" remote="nos" revision="p" />
+    <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="nos" revision="p" />
 
     <!-- prebuilts -->
     <project path="prebuilts/build-tools" name="android_prebuilts_build-tools" remote="nos" revision="p" />
