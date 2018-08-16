@@ -53,6 +53,7 @@
   <!-- System repos -->
   <remove-project name="platform/system/bt" />
   <remove-project name="platform/system/core" />
+  <remove-project name="platform/system/extras" />
 
   <!-- Framework repos -->
   <remove-project name="platform/frameworks/av" />

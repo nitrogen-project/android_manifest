@@ -35,6 +35,7 @@
     <!-- system -->
     <project path="system/bt" name="android_system_bt" remote="nos" revision="p" />
     <project path="system/core" name="android_system_core" remote="nos" revision="p" />
+    <project path="system/extras" name="android_system_extras" remote="nos" revision="p" />
 
     <!-- hardware -->
     <project path="hardware/libhardware" name="android_hardware_libhardware" remote="nos" revision="p" />
