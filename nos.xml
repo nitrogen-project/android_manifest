@@ -36,6 +36,7 @@
     <project path="system/bt" name="android_system_bt" remote="nos" revision="p" />
     <project path="system/core" name="android_system_core" remote="nos" revision="p" />
     <project path="system/extras" name="android_system_extras" remote="nos" revision="p" />
+    <project path="system/sepolicy" name="android_system_sepolicy" remote="nos" revision="p" />
 
     <!-- hardware -->
     <project path="hardware/libhardware" name="android_hardware_libhardware" remote="nos" revision="p" />
@@ -86,4 +87,5 @@
     <project path="kernel/oneplus/msm8996" name="android_kernel_oneplus_msm8996" remote="nos" revision="p" />
 
     <!-- qcom -->
+    <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="nos" revision="p" />
 </manifest>
