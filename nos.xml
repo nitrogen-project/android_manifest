@@ -31,6 +31,7 @@
 
     <!-- external -->
     <project path="external/tinycompress" name="android_external_tinycompress" remote="nos" revision="p" />
+    <project path="external/libphonenumber" name="android_external_libphonenumber" remote="nos" revision="p" />
 
     <!-- system -->
     <project path="system/bt" name="android_system_bt" remote="nos" revision="p" />
