@@ -54,6 +54,7 @@
     <project path="hardware/nxp/nfc" name="android_hardware_nxp_nfc" remote="nos" revision="p" />
     <project path="hardware/interfaces" name="android_hardware_interfaces" remote="nos" revision="p" />
     <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" remote="nos" revision="p" />
+    <project path="hardware/ril" name="android_hardware_ril" remote="nos" revision="p" />
 
     <!-- frameworks -->
     <project path="frameworks/av" name="android_frameworks_av" remote="nos" revision="p" />
