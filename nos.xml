@@ -35,12 +35,15 @@
     <project path="external/ant-wireless/ant_service" name="android_external_ant-wireless_ant_service" remote="nos" revision="p" />
     <project path="external/tinycompress" name="android_external_tinycompress" remote="nos" revision="p" />
     <project path="external/libphonenumber" name="android_external_libphonenumber" remote="nos" revision="p" />
+    <project path="external/exfat" name="android_external_exfat" remote="nos" revision="p" />
+    <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="nos" revision="p" />
 
     <!-- system -->
     <project path="system/bt" name="android_system_bt" remote="nos" revision="p" />
     <project path="system/core" name="android_system_core" remote="nos" revision="p" />
     <project path="system/extras" name="android_system_extras" remote="nos" revision="p" />
     <project path="system/sepolicy" name="android_system_sepolicy" remote="nos" revision="p" />
+    <project path="system/vold" name="android_system_vold" remote="nos" revision="p" />
 
     <!-- hardware -->
     <project path="hardware/libhardware" name="android_hardware_libhardware" remote="nos" revision="p" />
