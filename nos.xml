@@ -33,6 +33,7 @@
     <project path="external/ant-wireless/antradio-library" name="android_external_ant-wireless_antradio-library" remote="nos" revision="p" />
     <project path="external/ant-wireless/ant_native" name="android_external_ant-wireless_ant_native" remote="nos" revision="p" />
     <project path="external/ant-wireless/ant_service" name="android_external_ant-wireless_ant_service" remote="nos" revision="p" />
+    <project path="external/json-c" name="android_external_json-c" remote="nos" revision="p" />
     <project path="external/tinycompress" name="android_external_tinycompress" remote="nos" revision="p" />
     <project path="external/libphonenumber" name="android_external_libphonenumber" remote="nos" revision="p" />
     <project path="external/exfat" name="android_external_exfat" remote="nos" revision="p" />
