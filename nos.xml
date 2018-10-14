@@ -73,6 +73,7 @@
     <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" remote="nos" revision="p" />
     <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="nos" revision="p" />
     <project path="frameworks/native" name="android_frameworks_native" remote="nos" revision="p" />
+    <project path="frameworks/opt/net/voip" name="android_frameworks_opt_net_voip" remote="nos" revision="p" />
 
     <!-- packages -->
     <project path="packages/apps/NitrogenSettings" name="android_packages_apps_NitrogenSettings" remote="nos" revision="p" />
