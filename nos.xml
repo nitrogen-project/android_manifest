@@ -93,6 +93,7 @@
     <project path="packages/apps/SmartNav" name="android_packages_apps_SmartNav" remote="nos" revision="p" />
     <project path="packages/apps/SmartNavSettings" name="android_packages_apps_SmartNavSettings" remote="nos" revision="p" />
     <project path="packages/apps/Updates" name="android_packages_apps_Updates" remote="nos" revision="p" />
+    <project path="OTA" name="OTA" remote="nos" revision="p" />
     
     <!-- prebuilts -->
     <project path="prebuilts/build-tools" name="android_prebuilts_build-tools" remote="nos" revision="p" />
