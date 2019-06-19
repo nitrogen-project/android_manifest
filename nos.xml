@@ -117,7 +117,7 @@
     <project path="vendor/qcom/opensource/audio" name="android_vendor_qcom_opensource_audio" remote="nos" revision="p" />
 
     <!-- oneplus3 -->
-    <project path="device/oneplus/oneplus3" name="android_device_oneplus_oneplus3" remote="nos" revision="p" />
-    <project path="kernel/oneplus/msm8996" name="android_kernel_oneplus_msm8996" remote="nos" revision="p" />
-    <project path="vendor/oneplus" name="proprietary_vendor_oneplus" remote="nos" revision="p" />
+    <project path="device/oneplus/oneplus3" name="android_device_oneplus_oneplus3" remote="nos" revision="p2" />
+    <project path="kernel/oneplus/msm8996" name="android_kernel_oneplus_msm8996" remote="nos" revision="p2" />
+    <project path="vendor/oneplus" name="proprietary_vendor_oneplus" remote="nos" revision="p2" />
 </manifest>
