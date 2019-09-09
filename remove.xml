@@ -53,6 +53,7 @@
   <remove-project name="device/ti/beagle-x15-kernel" />
 
   <!-- General repos -->
+  <remove-project name="platform/bionic" />
   <remove-project name="platform/build" />
   <remove-project name="platform/build/soong" />
 
