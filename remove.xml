@@ -70,4 +70,9 @@
   <remove-project name="platform/hardware/qcom/bt" />
   <remove-project name="platform/hardware/qcom/keymaster" />
   <remove-project name="platform/hardware/qcom/data/ipacfg-mgr" />
+  <remove-project name="platform/hardware/libhardware" />
+  <remove-project name="platform/hardware/libhardware_legacy" />
+
+  <!-- System repos -->
+  <remove-project name="platform/system/core" />
 </manifest>
