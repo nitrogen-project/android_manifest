@@ -26,6 +26,7 @@
     </project>
 
     <project path="bionic" name="android_bionic" remote="nos" revision="10" />
+    <project path="bootable/recovery" name="android_bootable_recovery" remote="nos" revision="10" />
 
     <!-- hardware -->
     <project path="hardware/qcom/audio" name="android_hardware_qcom_audio" remote="nos" revision="10" />
