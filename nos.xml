@@ -28,6 +28,10 @@
     <project path="bionic" name="android_bionic" remote="nos" revision="10" />
     <project path="bootable/recovery" name="android_bootable_recovery" remote="nos" revision="10" />
 
+    <!-- frameworks -->
+    <project path="frameworks/av" name="android_frameworks_av" remote="nos" revision="10" />
+    <project path="frameworks/base" name="android_frameworks_base" remote="nos" revision="10" />
+
     <!-- hardware -->
     <project path="hardware/qcom/audio" name="android_hardware_qcom_audio" remote="nos" revision="10" />
     <project path="hardware/qcom/bootctrl" name="android_hardware_qcom_bootctrl" remote="nos" revision="10" />
@@ -39,6 +43,7 @@
     <project path="hardware/qcom/keymaster" name="android_hardware_qcom_keymaster" remote="nos" revision="10" />
     <project path="hardware/qcom/data/ipacfg-mgr" name="android_hardware_qcom_data_ipacfg-mgr" remote="nos" revision="10" />
     <project path="hardware/qcom/camera" name="android_hardware_qcom_camera" remote="nos" revision="10" />
+    <project path="hardware/nxp/nfc" name="android_hardware_nxp_nfc" remote="nos" revision="10" />
 
     <!-- caf -->
     <project path="hardware/qcom-caf/msm8996/audio" name="android_hardware_qcom_audio" remote="nos" revision="10-caf-8996"/>
