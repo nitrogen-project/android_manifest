@@ -90,4 +90,6 @@
   <remove-project name="platform/packages/services/Telephony" />
   <remove-project name="platform/packages/services/Telecomm" />
 
+  <!-- Package repos -->
+  <remove-project name="platform/packages/apps/Settings" />
 </manifest>

@@ -60,6 +60,10 @@
     <!-- external -->
     <project path="external/tinycompress" name="android_external_tinycompress" remote="nos" revision="10" />
 
+    <!-- packages -->
+    <project path="packages/apps/NitrogenSettings" name="android_packages_apps_NitrogenSettings" remote="nos" revision="10" />
+    <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="nos" revision="10" />
+
     <!-- prebuilts -->
     <project path="prebuilts/tools-lineage" name="android_prebuilts_tools-lineage" remote="nos" revision="10" />
     <project path="prebuilts/openssl" name="android_prebuilts_openssl" remote="nos" revision="10" />
