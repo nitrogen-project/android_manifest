@@ -92,4 +92,5 @@
 
   <!-- Package repos -->
   <remove-project name="platform/packages/apps/Settings" />
+  <remove-project name="platform/packages/apps/SettingsIntelligence" />
 </manifest>
