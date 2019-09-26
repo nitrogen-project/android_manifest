@@ -76,6 +76,7 @@
   <remove-project name="platform/hardware/libhardware_legacy" />
   <remove-project name="platform/hardware/nxp/nfc" />
   <remove-project name="platform/hardware/ril" />
+  <remove-project name="platform/hardware/interfaces" />
 
   <!-- System repos -->
   <remove-project name="platform/system/core" />
