@@ -80,6 +80,7 @@
 
   <!-- System repos -->
   <remove-project name="platform/system/core" />
+  <remove-project name="platform/system/vold" />
 
   <!-- Framework repos -->
   <remove-project name="platform/frameworks/av" />

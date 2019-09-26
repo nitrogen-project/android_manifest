@@ -79,6 +79,7 @@
 
     <!-- system -->
     <project path="system/core" name="android_system_core" remote="nos" revision="10" />
+    <project path="system/vold" name="android_system_vold" remote="nos" revision="10" />
 
     <!-- services -->
     <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="nos" revision="10" />
