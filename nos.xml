@@ -10,6 +10,7 @@
         sync-j="16" />
 
     <!-- general -->
+    <project path="build/blueprint" name="android_build_blueprint" remote="nos" revision="10" />
     <project path="build/make" name="android_build_make" remote="nos" revision="10" >
         <copyfile src="core/root.mk" dest="Makefile" />
         <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
