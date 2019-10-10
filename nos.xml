@@ -37,6 +37,7 @@
     <project path="frameworks/base" name="android_frameworks_base" remote="nos" revision="10" />
     <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="nos" revision="10" />
     <project path="frameworks/native" name="android_frameworks_native" remote="nos" revision="10" />
+    <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" remote="nos" revision="10" />
 
     <!-- hardware -->
     <project path="hardware/qcom/audio" name="android_hardware_qcom_audio" remote="nos" revision="10" />
