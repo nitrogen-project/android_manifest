@@ -6,8 +6,7 @@ Create dirs, and install soft, libs
 
     sudo su
     apt-get update
-    apt-get install openjdk-8-jdk
-    apt-get install repo git-core gnupg flex bison gperf build-essential zip curl zlib1g-dev gcc-multilib g++-multilib libc6-dev-i386 lib32ncurses5-dev x11proto-core-dev libx11-dev lib32z-dev libgl1-mesa-dev libxml2-utils xsltproc unzip
+    apt-get install repo git-core gnupg flex bison gperf build-essential zip curl zlib1g-dev gcc-multilib g++-multilib libc6-dev-i386 lib32ncurses5-dev x11proto-core-dev libx11-dev lib32z-dev libgl1-mesa-dev libxml2-utils xsltproc unzip fontconfig
     exit
 
 Create nitrogen folder
@@ -25,7 +24,7 @@ GIT config (nickname, e-mail)
 To initialize your local repository use
 ---------------------------------------
 
-    repo init -u https://github.com/nitrogen-project/android_manifest.git -b p
+    repo init -u https://github.com/nitrogen-project/android_manifest.git -b 10
 
 Then to sync up:
 ----------------
