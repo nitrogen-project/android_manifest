@@ -70,6 +70,7 @@
     <project path="external/tinycompress" name="android_external_tinycompress" remote="nos" revision="10" />
     <project path="external/exfat" name="android_external_exfat" remote="nos" revision="10" />
     <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="nos" revision="10" />
+    <project path="external/json-c" name="android_external_json-c" remote="nos" revision="10" />
 
     <!-- packages -->
     <project path="packages/apps/NitrogenSettings" name="android_packages_apps_NitrogenSettings" remote="nos" revision="10" />
