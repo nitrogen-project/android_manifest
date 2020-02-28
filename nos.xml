@@ -62,7 +62,8 @@
     <project path="hardware/libhardware" name="android_hardware_libhardware" remote="nos" revision="10" />
     <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="nos" revision="10" />
     <project path="hardware/ril" name="android_hardware_ril" remote="nos" revision="10" />
-
+    <project path="hardware/nitrogen/interfaces" name="android_hardware_nitrogen_interfaces" remote="nos" revision="10" />
+    
     <!-- external -->
     <project path="external/ant-wireless/ant_native" name="android_external_ant-wireless_ant_native" remote="nos" revision="10" />
     <project path="external/ant-wireless/ant_service" name="android_external_ant-wireless_ant_service" remote="nos" revision="10" />
