@@ -34,7 +34,9 @@
     <project path="bootable/recovery" name="android_bootable_recovery" remote="nos" revision="10" />
 
     <!-- qcom -->
-    <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="nos" revision="10" />
+    <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="nos" revision="10"/>
+    <project path="device/qcom/sepolicy-legacy" name="android_device_qcom_sepolicy" remote="nos" revision="10-legacy" />
+    <project path="device/qcom/sepolicy-legacy-um" name="android_device_qcom_sepolicy" remote="nos" revision="10-legacy-um" />
 
     <!-- frameworks -->
     <project path="frameworks/av" name="android_frameworks_av" remote="nos" revision="10" />
