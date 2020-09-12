@@ -61,16 +61,36 @@
   <remove-project name="device/ti/beagle-x15-kernel" />
 
   <!-- General repos -->
+  <remove-project name="platform/build" />
+  <remove-project name="platform/build/soong" />
+  <remove-project name="platform/bionic" />
+  <remove-project name="platform/bootable/recovery" />
 
   <!-- External repos -->
 
   <!-- Hardware repos -->
+  <remove-project name="platform/hardware/libhardware" />
+  <remove-project name="platform/hardware/libhardware_legacy" />
+  <remove-project name="platform/hardware/nxp/nfc" />
+  <remove-project name="platform/hardware/ril" />
+  <remove-project name="platform/hardware/interfaces" />
 
   <!-- System repos -->
+  <remove-project name="platform/system/core" />
+  <remove-project name="platform/system/vold" />
 
   <!-- Framework repos -->
+  <remove-project name="platform/frameworks/av" />
+  <remove-project name="platform/frameworks/base" />
+  <remove-project name="platform/frameworks/opt/telephony" />
+  <remove-project name="platform/frameworks/native" />
+  <remove-project name="platform/frameworks/opt/net/wifi" />
 
   <!-- Service repos -->
+  <remove-project name="platform/packages/services/Telephony" />
+  <remove-project name="platform/packages/services/Telecomm" />
 
   <!-- Package repos -->
+  <remove-project name="platform/packages/inputmethods/LatinIME" />
+  <remove-project name="platform/packages/apps/Settings" />
 </manifest>
