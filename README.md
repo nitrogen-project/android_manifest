@@ -24,7 +24,7 @@ GIT config (nickname, e-mail)
 To initialize your local repository use
 ---------------------------------------
 
-    repo init -u https://github.com/nitrogen-project/android_manifest.git -b 10
+    repo init -u https://github.com/nitrogen-project/android_manifest.git -b 11
 
 Then to sync up:
 ----------------

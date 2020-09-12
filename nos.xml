@@ -14,109 +14,28 @@
         sync-j="16" />
 
     <!-- general -->
-    <project path="build/blueprint" name="android_build_blueprint" remote="nos" revision="10" />
-    <project path="build/make" name="android_build_make" remote="nos" revision="10" >
-        <copyfile src="core/root.mk" dest="Makefile" />
-        <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
-        <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
-        <linkfile src="core" dest="build/core" />
-        <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
-        <linkfile src="target" dest="build/target" />
-        <linkfile src="tools" dest="build/tools" />
-    </project>
-
-    <project path="build/soong" name="android_build_soong" remote="nos" revision="10" >
-        <linkfile src="root.bp" dest="Android.bp" />
-        <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
-    </project>
-
-    <project path="bionic" name="android_bionic" remote="nos" revision="10" />
-    <project path="bootable/recovery" name="android_bootable_recovery" remote="nos" revision="10" />
 
     <!-- qcom -->
-    <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="nos" revision="10"/>
-    <project path="device/qcom/sepolicy-legacy" name="android_device_qcom_sepolicy" remote="nos" revision="10-legacy" />
-    <project path="device/qcom/sepolicy-legacy-um" name="android_device_qcom_sepolicy" remote="nos" revision="10-legacy-um" />
 
     <!-- frameworks -->
-    <project path="frameworks/av" name="android_frameworks_av" remote="nos" revision="10" />
-    <project path="frameworks/base" name="android_frameworks_base" remote="nos" revision="10" />
-    <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="nos" revision="10" />
-    <project path="frameworks/native" name="android_frameworks_native" remote="nos" revision="10" />
-    <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" remote="nos" revision="10" />
 
     <!-- hardware -->
-    <project path="hardware/qcom/audio" name="android_hardware_qcom_audio" remote="nos" revision="10" />
-    <project path="hardware/qcom/bootctrl" name="android_hardware_qcom_bootctrl" remote="nos" revision="10" />
-    <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" remote="nos" revision="10" />
-    <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="nos" revision="10" />
-    <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="nos" revision="10" />
-    <project path="hardware/qcom/media" name="android_hardware_qcom_media" remote="nos" revision="10" />
-    <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" remote="nos" revision="10" />
-    <project path="hardware/qcom/keymaster" name="android_hardware_qcom_keymaster" remote="nos" revision="10" />
-    <project path="hardware/qcom/data/ipacfg-mgr" name="android_hardware_qcom_data_ipacfg-mgr" remote="nos" revision="10" />
-    <project path="hardware/qcom/camera" name="android_hardware_qcom_camera" remote="nos" revision="10" />
-    <project path="hardware/nxp/nfc" name="android_hardware_nxp_nfc" remote="nos" revision="10" />
-    <project path="hardware/interfaces" name="android_hardware_interfaces" remote="nos" revision="10" />
 
     <!-- caf -->
-    <project path="hardware/qcom-caf/msm8996/audio" name="android_hardware_qcom_audio" remote="nos" revision="10-caf-8996"/>
-    <project path="hardware/qcom-caf/msm8996/media" name="android_hardware_qcom_media" remote="nos" revision="10-caf-8996"/>
-    <project path="hardware/qcom-caf/msm8996/display" name="android_hardware_qcom_display" remote="nos" revision="10-caf-8996"/>
-    <project path="hardware/qcom-caf/bt" name="android_hardware_qcom_bt" remote="nos" revision="10-caf" />
-    <project path="hardware/qcom-caf/wlan" name="android_hardware_qcom_wlan" remote="nos" revision="10-caf" />
-    <project path="hardware/libhardware" name="android_hardware_libhardware" remote="nos" revision="10" />
-    <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="nos" revision="10" />
-    <project path="hardware/ril" name="android_hardware_ril" remote="nos" revision="10" />
-    <project path="hardware/nitrogen/interfaces" name="android_hardware_nitrogen_interfaces" remote="nos" revision="10" />
 
     <!-- external -->
-    <project path="external/ant-wireless/ant_native" name="android_external_ant-wireless_ant_native" remote="nos" revision="10" />
-    <project path="external/ant-wireless/ant_service" name="android_external_ant-wireless_ant_service" remote="nos" revision="10" />
-    <project path="external/ant-wireless/antradio-library" name="android_external_ant-wireless_antradio-library" remote="nos" revision="10" />
-    <project path="external/tinycompress" name="android_external_tinycompress" remote="nos" revision="10" />
-    <project path="external/exfat" name="android_external_exfat" remote="nos" revision="10" />
-    <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="nos" revision="10" />
-    <project path="external/json-c" name="android_external_json-c" remote="nos" revision="10" />
-    <project path="external/motorola/faceunlock" name="android_external_motorola_faceunlock" remote="nos2" revision="10" />
 
     <!-- OTA -->
-    <project path="OTA" name="OTA" remote="nos" revision="10" />
 
     <!-- packages -->
-    <project path="packages/apps/NitrogenSettings" name="android_packages_apps_NitrogenSettings" remote="nos" revision="10" />
-    <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="nos" revision="10" />
-    <project path="packages/apps/SettingsIntelligence" name="android_packages_apps_SettingsIntelligence" remote="nos" revision="10" />
-    <project path="packages/apps/DeskClock" name="android_packages_apps_DeskClock" remote="nos" revision="10" />
-    <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="nos" revision="10" />
-    <project path="packages/apps/Dialer" name="android_packages_apps_Dialer" remote="nos" revision="10" />
-    <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" remote="nos" revision="10" />
-    <project path="packages/apps/Messaging" name="android_packages_apps_Messaging" remote="nos" revision="10" />
-    <project path="packages/apps/Updates" name="android_packages_apps_Updates" remote="nos" revision="10" />
+    <project path="packages/apps/NitrogenSettings" name="android_packages_apps_NitrogenSettings" remote="nos" revision="11" />
 
     <!-- prebuilts -->
-    <project path="prebuilts/tools-lineage" name="android_prebuilts_tools-lineage" remote="nos" revision="10" />
-    <project path="prebuilts/openssl" name="android_prebuilts_openssl" remote="nos" revision="10" />
 
     <!-- system -->
-    <project path="system/core" name="android_system_core" remote="nos" revision="10" />
-    <project path="system/vold" name="android_system_vold" remote="nos" revision="10" />
 
     <!-- services -->
-    <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="nos" revision="10" />
-    <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="nos" revision="10" />
 
     <!-- vendor -->
-    <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="nos" revision="10" />
-    <project path="vendor/nitrogen" name="android_vendor_nitrogen" remote="nos" revision="10" />
-    <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="android_vendor_qcom_opensource_data-ipa-cfg-mgr" remote="nos" revision="10" />
-    <project path="vendor/qcom/opensource/dataservices" name="android_vendor_qcom_opensource_dataservices" remote="nos" revision="10" />
-    <project path="vendor/qcom/opensource/interfaces" name="android_vendor_qcom_opensource_interfaces" remote="nos" revision="10" />
-    <project path="vendor/qcom/opensource/audio" name="android_vendor_qcom_opensource_audio" remote="nos" revision="10" />
-    <project path="vendor/qcom/opensource/cryptfs_hw" name="android_vendor_qcom_opensource_cryptfs_hw" remote="nos" revision="10" />
 
-    <!-- oneplus3 -->
-    <project path="device/oneplus/oneplus3" name="android_device_oneplus_oneplus3" remote="nos" revision="10" />
-    <project path="kernel/oneplus/msm8996" name="android_kernel_oneplus_msm8996" remote="nos" revision="10" />
-    <project path="vendor/oneplus" name="proprietary_vendor_oneplus" remote="nos" revision="10" />
 </manifest>
