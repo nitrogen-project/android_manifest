@@ -80,6 +80,7 @@
   <remove-project name="platform/hardware/interfaces" />
 
   <!-- System repos -->
+  <remove-project name="platform/system/bt" />
   <remove-project name="platform/system/core" />
   <remove-project name="platform/system/vold" />
 
@@ -95,6 +96,7 @@
   <remove-project name="platform/packages/services/Telecomm" />
 
   <!-- Package repos -->
+  <remove-project name="platform/packages/apps/Bluetooth" />
   <remove-project name="platform/packages/apps/Dialer" />
   <remove-project name="platform/packages/apps/Messaging" />
   <remove-project name="platform/packages/inputmethods/LatinIME" />
