@@ -33,6 +33,8 @@
     <project path="bootable/recovery" name="android_bootable_recovery" remote="nos" revision="11" />
 
     <!-- qcom -->
+    <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="nos" revision="11"/>
+    <project path="device/qcom/sepolicy_vndr" name="android_device_qcom_sepolicy_vndr" remote="nos" revision="11"/>
 
     <!-- frameworks -->
     <project path="frameworks/av" name="android_frameworks_av" remote="nos" revision="11" />
@@ -94,10 +96,15 @@
     <!-- vendor -->
     <project path="vendor/nitrogen" name="android_vendor_nitrogen" remote="nos" revision="11" />
     <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="nos" revision="11" />
+    <project path="vendor/qcom/opensource/audio" name="android_vendor_qcom_opensource_audio" remote="nos" revision="11" />
+    <project path="vendor/qcom/opensource/commonsys-intf/bluetooth" name="android_vendor_qcom_opensource_bluetooth-commonsys-intf" remote="nos" revision="11"/>
+    <project path="vendor/qcom/opensource/commonsys/bluetooth_ext" name="android_vendor_qcom_opensource_bluetooth_ext" remote="nos" revision="11"/>
+    <project path="vendor/qcom/opensource/commonsys/packages/apps/Bluetooth" name="android_vendor_qcom_opensource_packages_apps_Bluetooth" remote="nos" revision="11" />
+    <project path="vendor/qcom/opensource/commonsys/system/bt" name="android_vendor_qcom_opensource_system_bt" remote="nos" revision="11"/>
+    <project path="vendor/qcom/opensource/cryptfs_hw" name="android_vendor_qcom_opensource_cryptfs_hw" remote="nos" revision="11" />
     <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="android_vendor_qcom_opensource_data-ipa-cfg-mgr" remote="nos" revision="11" />
     <project path="vendor/qcom/opensource/dataservices" name="android_vendor_qcom_opensource_dataservices" remote="nos" revision="11" />
+    <project path="vendor/qcom/opensource/healthd-ext" name="android_vendor_qcom_opensource_healthd-ext" remote="nos" revision="11" />
     <project path="vendor/qcom/opensource/interfaces" name="android_vendor_qcom_opensource_interfaces" remote="nos" revision="11" />
-    <project path="vendor/qcom/opensource/audio" name="android_vendor_qcom_opensource_audio" remote="nos" revision="11" />
-    <project path="vendor/qcom/opensource/cryptfs_hw" name="android_vendor_qcom_opensource_cryptfs_hw" remote="nos" revision="11" />
-
+    <project path="vendor/qcom/opensource/vibrator" name="android_vendor_qcom_opensource_vibrator" remote="nos" revision="11" />
 </manifest>
