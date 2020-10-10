@@ -104,8 +104,9 @@
 
   <!-- Package repos -->
   <remove-project name="platform/packages/apps/Bluetooth" />
-  <remove-project name="platform/packages/inputmethods/LatinIME" />
+  <remove-project name="platform/packages/apps/Nfc" />
   <remove-project name="platform/packages/apps/Settings" />
+  <remove-project name="platform/packages/inputmethods/LatinIME" />
 
   <!-- Prebuilts -->
   <remove-project name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" />
