@@ -131,6 +131,14 @@
     <!-- vendor -->
     <project path="vendor/nitrogen" name="android_vendor_nitrogen" remote="nos" revision="11" />
     <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="nos" revision="11" />
+    <project path="vendor/nxp/opensource/interfaces/nfc" name="android_vendor_nxp_interfaces_opensource_nfc" remote="nos" revision="11" />
+    <project path="vendor/nxp/opensource/commonsys/external/libnfc-nci" name="android_vendor_nxp_opensource_external_libnfc-nci" remote="nos" revision="11" />
+    <project path="vendor/nxp/opensource/commonsys/frameworks" name="android_vendor_nxp_opensource_frameworks" remote="nos" revision="11" />
+    <project path="vendor/nxp/opensource/commonsys/packages/apps/Nfc" name="android_vendor_nxp_opensource_packages_apps_Nfc" remote="nos" revision="11" />
+    <project path="vendor/nxp/opensource/pn5xx/halimpl" name="android_vendor_nxp_opensource_halimpl" remote="nos" revision="11-pn5xx" />
+    <project path="vendor/nxp/opensource/pn5xx/hidlimpl" name="android_vendor_nxp_opensource_hidlimpl" remote="nos" revision="11-pn5xx" />
+    <project path="vendor/nxp/opensource/sn100x/halimpl" name="android_vendor_nxp_opensource_halimpl" remote="nos" revision="11-sn100x" />
+    <project path="vendor/nxp/opensource/sn100x/hidlimpl" name="android_vendor_nxp_opensource_hidlimpl" remote="nos" revision="11-sn100x" />
     <project path="vendor/qcom/opensource/audio" name="android_vendor_qcom_opensource_audio" remote="nos" revision="11" />
     <project path="vendor/qcom/opensource/commonsys-intf/bluetooth" name="android_vendor_qcom_opensource_bluetooth-commonsys-intf" remote="nos" revision="11"/>
     <project path="vendor/qcom/opensource/commonsys/bluetooth_ext" name="android_vendor_qcom_opensource_bluetooth_ext" remote="nos" revision="11"/>
