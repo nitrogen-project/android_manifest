@@ -123,6 +123,7 @@
     <!-- system -->
     <project path="system/bt" name="android_system_bt" remote="nos" revision="11" />
     <project path="system/core" name="android_system_core" remote="nos" revision="11" />
+    <project path="system/sepolicy" name="android_system_sepolicy" remote="nos" revision="11" />
     <project path="system/vold" name="android_system_vold" remote="nos" revision="11" />
 
     <!-- services -->
