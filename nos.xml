@@ -111,6 +111,8 @@
 
     <!-- packages -->
     <project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" remote="nos" revision="11" />
+    <project path="packages/apps/Dialer" name="android_packages_apps_Dialer" remote="nos" revision="11" />
+    <project path="packages/apps/Messaging" name="android_packages_apps_Messaging" remote="nos" revision="11" />
     <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="nos" revision="11" />
     <project path="packages/apps/NitrogenSettings" name="android_packages_apps_NitrogenSettings" remote="nos" revision="11" />
     <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="nos" revision="11" />
