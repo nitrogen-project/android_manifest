@@ -34,6 +34,7 @@
 
     <!-- qcom -->
     <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="nos" revision="11"/>
+    <project path="device/qcom/sepolicy-legacy-um" name="android_device_qcom_sepolicy" remote="nos" revision="11-legacy"/>
     <project path="device/qcom/sepolicy_vndr" name="android_device_qcom_sepolicy_vndr" remote="nos" revision="11"/>
 
     <!-- frameworks -->
