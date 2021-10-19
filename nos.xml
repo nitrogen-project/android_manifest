@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+    <!-- Github remote -->
+    <remote name="github"
+        fetch="https://github.com/" />
+
+    <remote name="nos"
+        fetch="https://github.com/nitrogen-project"
+        sync-j="16" />
+
+    <remote name="nos2"
+        fetch="https://bitbucket.org/nitrogen-project"
+        sync-j="16" />
+
+    <!-- general -->
+    <project path="build/make" name="android_build_make" remote="nos" revision="12" >
+        <copyfile src="core/root.mk" dest="Makefile" />
+        <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+        <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+        <linkfile src="core" dest="build/core" />
+        <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+        <linkfile src="target" dest="build/target" />
+        <linkfile src="tools" dest="build/tools" />
+    </project>
+
+    <project path="build/soong" name="android_build_soong" remote="nos" revision="12" >
+        <linkfile src="root.bp" dest="Android.bp" />
+        <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+    </project>
+
+    <project path="bionic" name="android_bionic" remote="nos" revision="12" />
+    <project path="bootable/recovery" name="android_bootable_recovery" remote="nos" revision="12" />
+
+    <!-- qcom -->
+
+    <!-- frameworks -->
+
+    <!-- hardware -->
+    <project path="hardware/interfaces" name="android_hardware_interfaces" remote="nos" revision="12" />
+
+    <!-- caf -->
+
+    <!-- external -->
+    <project path="external/tinycompress" name="android_external_tinycompress" remote="nos" revision="12" />
+
+    <!-- OTA -->
+
+    <!-- packages -->
+
+    <!-- prebuilts -->
+    <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" name="android_prebuilts_gcc_linux-x86_host_x86_64-linux-glibc2.17-4.8" remote="nos" revision="11" />
+    <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" remote="nos" revision="11" />
+    <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="android_prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9" remote="nos" revision="11" />
+    <project path="prebuilts/tools-lineage" name="android_prebuilts_tools-lineage" remote="nos" revision="11" />
+
+    <!-- system -->
+    <project path="system/security" name="android_system_security" remote="nos" revision="12" />
+    <project path="system/core" name="android_system_core" remote="nos" revision="12" />
+    <project path="system/vold" name="android_system_vold" remote="nos" revision="12" />
+
+    <!-- services -->
+
+    <!-- vendor -->
+    <project path="vendor/nitrogen" name="android_vendor_nitrogen" remote="nos" revision="12" />
+    <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="nos" revision="12" />
+
+</manifest>
