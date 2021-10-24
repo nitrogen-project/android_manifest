@@ -37,6 +37,7 @@
 
     <!-- frameworks -->
     <project path="frameworks/base" name="android_frameworks_base" remote="nos" revision="12" />
+    <project path="frameworks/av" name="android_frameworks_av" remote="nos" revision="12" />
 
     <!-- hardware -->
     <project path="hardware/interfaces" name="android_hardware_interfaces" remote="nos" revision="12" />

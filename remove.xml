@@ -83,6 +83,7 @@
 
   <!-- Framework repos -->
   <remove-project name="platform/frameworks/base" />
+  <remove-project name="platform/frameworks/av" />
 
   <!-- Service repos -->
 
