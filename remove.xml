@@ -90,6 +90,7 @@
   <remove-project name="platform/packages/services/Telecomm" />
 
   <!-- Package repos -->
+  <remove-project name="platform/packages/apps/Launcher3" />
   <remove-project name="platform/packages/apps/Settings" />
   <remove-project name="platform/packages/apps/SettingsIntelligence" />
   <remove-project name="platform/packages/inputmethods/LatinIME" />
