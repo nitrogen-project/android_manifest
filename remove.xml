@@ -80,6 +80,7 @@
   <remove-project name="platform/system/core" />
   <remove-project name="platform/system/security" />
   <remove-project name="platform/system/vold" />
+  <remove-project name="platform/system/bt" />
 
   <!-- Framework repos -->
   <remove-project name="platform/frameworks/base" />
@@ -94,6 +95,7 @@
   <remove-project name="platform/packages/apps/Settings" />
   <remove-project name="platform/packages/apps/SettingsIntelligence" />
   <remove-project name="platform/packages/inputmethods/LatinIME" />
+  <remove-project name="platform/packages/apps/Bluetooth" />
 
   <!-- Prebuilts -->
   <remove-project name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" />

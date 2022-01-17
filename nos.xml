@@ -55,6 +55,7 @@
     <project path="packages/apps/SettingsIntelligence" name="android_packages_apps_SettingsIntelligence" remote="nos" revision="12" />
     <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" remote="nos" revision="12" />
     <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="nos" revision="12" />
+    <project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" remote="nos" revision="12" />
 
     <!-- prebuilts -->
     <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" name="android_prebuilts_gcc_linux-x86_host_x86_64-linux-glibc2.17-4.8" remote="nos" revision="12" />
@@ -67,6 +68,7 @@
     <project path="system/security" name="android_system_security" remote="nos" revision="12" />
     <project path="system/core" name="android_system_core" remote="nos" revision="12" />
     <project path="system/vold" name="android_system_vold" remote="nos" revision="12" />
+    <project path="system/bt" name="android_system_bt" remote="nos" revision="12" />
 
     <!-- services -->
     <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="nos" revision="12" />
@@ -75,5 +77,10 @@
     <!-- vendor -->
     <project path="vendor/nitrogen" name="android_vendor_nitrogen" remote="nos" revision="12" />
     <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="nos" revision="12" />
-
+    <project path="vendor/qcom/opensource/commonsys-intf/bluetooth" name="android_vendor_qcom_opensource_bluetooth-commonsys-intf" remote="nos" revision="12"/>
+    <project path="vendor/qcom/opensource/commonsys/bluetooth_ext" name="android_vendor_qcom_opensource_bluetooth_ext" remote="nos" revision="12"/>
+    <project path="vendor/qcom/opensource/commonsys/packages/apps/Bluetooth" name="android_vendor_qcom_opensource_packages_apps_Bluetooth" remote="nos" revision="12" />
+    <project path="vendor/qcom/opensource/commonsys/system/bt" name="android_vendor_qcom_opensource_system_bt" remote="nos" revision="12"/>
+    <project path="vendor/qcom/opensource/interfaces" name="android_vendor_qcom_opensource_interfaces" remote="nos" revision="12" />
+    <project path="vendor/qcom/opensource/audio" name="android_vendor_qcom_opensource_audio" remote="nos" revision="12" />
 </manifest>
