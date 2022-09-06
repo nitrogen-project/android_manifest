@@ -13,12 +13,8 @@
         fetch="https://bitbucket.org/nitrogen-project"
         sync-j="16" />
 
-    <remote name="pixel-gitlab-self-hosted"
-        fetch="https://gitlab.pixelexperience.org/android"
-        revision="twelve" />
-
     <!-- general -->
-    <project path="build/make" name="android_build_make" remote="nos" revision="12" >
+    <project path="build/make" name="android_build_make" remote="nos" revision="13" >
         <copyfile src="core/root.mk" dest="Makefile" />
         <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
         <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
@@ -28,68 +24,36 @@
         <linkfile src="tools" dest="build/tools" />
     </project>
 
-    <project path="build/soong" name="android_build_soong" remote="nos" revision="12" >
+    <project path="build/soong" name="android_build_soong" remote="nos" revision="13" >
         <linkfile src="root.bp" dest="Android.bp" />
         <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
     </project>
 
-    <project path="bionic" name="android_bionic" remote="nos" revision="12" />
-    <project path="bootable/recovery" name="android_bootable_recovery" remote="nos" revision="12" />
+    <project path="bionic" name="android_bionic" remote="nos" revision="13" />
+    <project path="bootable/recovery" name="android_bootable_recovery" remote="nos" revision="13" />
 
     <!-- qcom -->
-    <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="nos" revision="12"/>
+    <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="nos" revision="13"/>
 
     <!-- frameworks -->
-    <project path="frameworks/base" name="android_frameworks_base" remote="nos" revision="12" />
-    <project path="frameworks/av" name="android_frameworks_av" remote="nos" revision="12" />
+    <project path="frameworks/base" name="android_frameworks_base" remote="nos" revision="13" />
+    <project path="frameworks/av" name="android_frameworks_av" remote="nos" revision="13" />
 
     <!-- hardware -->
-    <project path="hardware/interfaces" name="android_hardware_interfaces" remote="nos" revision="12" />
-
-    <!-- caf -->
-
-    <!-- external -->
-    <project path="external/tinycompress" name="android_external_tinycompress" remote="nos" revision="12" />
-    <project path="external/exfatprogs" name="android_external_exfatprogs" remote="nos" revision="12" />
-    <project path="external/faceunlock" name="external_faceunlock" remote="pixel-gitlab-self-hosted" />
-
-    <!-- OTA -->
+    <project path="hardware/interfaces" name="android_hardware_interfaces" remote="nos" revision="13" />
 
     <!-- packages -->
-    <project path="packages/apps/NitrogenSettings" name="android_packages_apps_NitrogenSettings" remote="nos" revision="12" />
-    <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="nos" revision="12" />
-    <project path="packages/apps/SettingsIntelligence" name="android_packages_apps_SettingsIntelligence" remote="nos" revision="12" />
-    <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" remote="nos" revision="12" />
-    <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="nos" revision="12" />
-    <project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" remote="nos" revision="12" />
-    <project path="packages/apps/Dialer" name="android_packages_apps_Dialer" remote="nos" revision="12" />
-    <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="nos" revision="12" />
-    <project path="packages/apps/FaceUnlockService" name="packages_apps_FaceUnlockService" remote="nos" revision="12" />
+    <project path="packages/apps/NitrogenSettings" name="android_packages_apps_NitrogenSettings" remote="nos" revision="13" />
+    <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="nos" revision="13" />
+    <project path="packages/apps/SettingsIntelligence" name="android_packages_apps_SettingsIntelligence" remote="nos" revision="13" />
+    <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" remote="nos" revision="13" />
 
     <!-- prebuilts -->
-    <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" name="android_prebuilts_gcc_linux-x86_host_x86_64-linux-glibc2.17-4.8" remote="nos" revision="12" />
-    <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" remote="nos" revision="12" />
-    <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="android_prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9" remote="nos" revision="12" />
     <project path="prebuilts/tools-lineage" name="android_prebuilts_tools-lineage" remote="nos" revision="12" />
-    <project path="prebuilts/build-tools" name="android_prebuilts_build-tools" remote="nos" revision="12" />
-
-    <!-- system -->
-    <project path="system/security" name="android_system_security" remote="nos" revision="12" />
-    <project path="system/core" name="android_system_core" remote="nos" revision="12" />
-    <project path="system/vold" name="android_system_vold" remote="nos" revision="12" />
-    <project path="system/bt" name="android_system_bt" remote="nos" revision="12" />
-
-    <!-- services -->
-    <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="nos" revision="12" />
-    <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="nos" revision="12" />
 
     <!-- vendor -->
-    <project path="vendor/nitrogen" name="android_vendor_nitrogen" remote="nos" revision="12" />
-    <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="nos" revision="12" />
-    <project path="vendor/qcom/opensource/commonsys-intf/bluetooth" name="android_vendor_qcom_opensource_bluetooth-commonsys-intf" remote="nos" revision="12"/>
-    <project path="vendor/qcom/opensource/commonsys/bluetooth_ext" name="android_vendor_qcom_opensource_bluetooth_ext" remote="nos" revision="12"/>
-    <project path="vendor/qcom/opensource/commonsys/packages/apps/Bluetooth" name="android_vendor_qcom_opensource_packages_apps_Bluetooth" remote="nos" revision="12" />
-    <project path="vendor/qcom/opensource/commonsys/system/bt" name="android_vendor_qcom_opensource_system_bt" remote="nos" revision="12"/>
-    <project path="vendor/qcom/opensource/interfaces" name="android_vendor_qcom_opensource_interfaces" remote="nos" revision="12" />
-    <project path="vendor/qcom/opensource/audio" name="android_vendor_qcom_opensource_audio" remote="nos" revision="12" />
+    <project path="vendor/nitrogen" name="android_vendor_nitrogen" remote="nos" revision="13" />
+    <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="nos" revision="13" />
+    <project path="vendor/qcom/opensource/interfaces" name="android_vendor_qcom_opensource_interfaces" remote="nos" revision="13" />
+    <project path="vendor/qcom/opensource/audio" name="android_vendor_qcom_opensource_audio" remote="nos" revision="13" />
 </manifest>
