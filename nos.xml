@@ -51,6 +51,10 @@
     <!-- prebuilts -->
     <project path="prebuilts/tools-lineage" name="android_prebuilts_tools-lineage" remote="nos" revision="12" />
 
+    <!-- services -->
+    <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="nos" revision="13" />
+    <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="nos" revision="13" />
+
     <!-- system -->
     <project path="system/core" name="android_system_core" remote="nos" revision="13" />
     <project path="system/security" name="android_system_security" remote="nos" revision="13" />

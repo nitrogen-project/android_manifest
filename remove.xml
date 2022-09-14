@@ -72,6 +72,10 @@
   <remove-project name="platform/packages/apps/SettingsIntelligence" />
   <remove-project name="platform/packages/inputmethods/LatinIME" />
 
+  <!-- Service repos -->
+  <remove-project name="platform/packages/services/Telephony" />
+  <remove-project name="platform/packages/services/Telecomm" />
+
   <!-- System repos -->
   <remove-project name="platform/system/core" />
   <remove-project name="platform/system/security" />
