@@ -13,6 +13,10 @@
         fetch="https://bitbucket.org/nitrogen-project"
         sync-j="16" />
 
+      <remote name="pixel-gitlab-self-hosted"
+         fetch="https://gitlab.pixelexperience.org/android"
+         revision="thirteen" />
+
     <!-- general -->
     <project path="build/make" name="android_build_make" remote="nos" revision="13" >
         <copyfile src="core/root.mk" dest="Makefile" />
@@ -65,4 +69,8 @@
     <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="nos" revision="13" />
     <project path="vendor/qcom/opensource/interfaces" name="android_vendor_qcom_opensource_interfaces" remote="nos" revision="13" />
     <project path="vendor/qcom/opensource/audio" name="android_vendor_qcom_opensource_audio" remote="nos" revision="13" />
+
+    <!-- FaceUnlock -->
+    <project path="external/faceunlock" name="external_faceunlock" remote="pixel-gitlab-self-hosted" />
+    <project path="packages/apps/FaceUnlockService" name="PixelExperience/packages_apps_FaceUnlockService" remote="github" revision="thirteen" />
 </manifest>
