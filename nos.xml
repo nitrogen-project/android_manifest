@@ -47,6 +47,7 @@
     <project path="hardware/interfaces" name="android_hardware_interfaces" remote="nos" revision="13" />
 
     <!-- packages -->
+    <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="nos" revision="13" />
     <project path="packages/apps/NitrogenSettings" name="android_packages_apps_NitrogenSettings" remote="nos" revision="13" />
     <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="nos" revision="13" />
     <project path="packages/apps/SettingsIntelligence" name="android_packages_apps_SettingsIntelligence" remote="nos" revision="13" />
