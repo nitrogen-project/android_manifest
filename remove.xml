@@ -3,7 +3,6 @@
   <!-- Device -->
   <remove-project name="device/amlogic/yukawa" />
   <remove-project name="device/amlogic/yukawa-kernel" />
-  <remove-project name="device/common" />
   <remove-project name="device/generic/arm64" />
   <remove-project name="device/generic/armv7-a-neon" />
   <remove-project name="device/generic/car" />
@@ -22,8 +21,6 @@
   <remove-project name="device/google/barbet" />
   <remove-project name="device/google/barbet-sepolicy" />
   <remove-project name="device/google/bluejay" />
-  <remove-project name="device/google/bluejay-kernel" />
-  <remove-project name="device/google/bluejay-sepolicy" />
   <remove-project name="device/google/bramble" />
   <remove-project name="device/google/bramble-sepolicy" />
   <remove-project name="device/google/coral" />
@@ -34,13 +31,11 @@
   <remove-project name="device/google/redbull-kernel" />
   <remove-project name="device/google/redfin" />
   <remove-project name="device/google/redfin-sepolicy" />
-  <remove-project name="device/google/sunfish" />
   <remove-project name="device/google/sunfish-kernel" />
   <remove-project name="device/google/sunfish-sepolicy" />
   <remove-project name="device/mediatek/wembley-sepolicy" />
   <remove-project name="device/google/gs101" />
   <remove-project name="device/google/gs101-sepolicy" />
-  <remove-project name="device/google/gs-common" />
   <remove-project name="device/google/raviole" />
   <remove-project name="device/google/raviole-kernel" />
   <remove-project name="device/google/trout" />
@@ -66,6 +61,9 @@
 
   <!-- Hardware repos -->
   <remove-project name="platform/hardware/interfaces" />
+  <remove-project name="platform/hardware/google/pixel-sepolicy" />
+  <remove-project name="platform/hardware/google/gchips" />
+  <remove-project name="platform/hardware/google/graphics/common" />
 
   <!-- Package repos -->
   <remove-project name="platform/packages/apps/Launcher3" />
