@@ -59,6 +59,10 @@
   <remove-project name="platform/frameworks/base" />
   <remove-project name="platform/frameworks/av" />
 
+  <!-- External repos -->
+  <remove-project name="platform/external/armnn" />
+  <remove-project name="platform/external/android-nn-driver"/>
+
   <!-- Hardware repos -->
   <remove-project name="platform/hardware/interfaces" />
   <remove-project name="platform/hardware/google/pixel-sepolicy" />

@@ -47,8 +47,11 @@
     <project path="frameworks/base" name="android_frameworks_base" remote="nos" revision="13" />
     <project path="frameworks/av" name="android_frameworks_av" remote="nos" revision="13" />
 
+    <!-- external -->
     <project path="external/dwarves" name="platform/external/dwarves" remote="aosp" revision="3c8f7e8b2cf7ff902b71c42d00fda30f30114b07" />
     <project path="prebuilts/kernel-build-tools" name="kernel/prebuilts/build-tools" clone-depth="1" remote="aosp" revision="refs/tags/android-13.0.0_r0.15" />
+    <project path="external/armnn" name="android_external_armnn" remote="nos" revision="13" />
+    <project path="external/android-nn-driver" name="android_external_android-nn-driver" remote="nos" revision="13" />
 
     <!-- hardware -->
     <project path="hardware/interfaces" name="android_hardware_interfaces" remote="nos" revision="13" />
