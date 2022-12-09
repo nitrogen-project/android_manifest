@@ -74,6 +74,7 @@
   <remove-project name="platform/packages/apps/Settings" />
   <remove-project name="platform/packages/apps/SettingsIntelligence" />
   <remove-project name="platform/packages/inputmethods/LatinIME" />
+  <remove-project name="platform/packages/apps/ThemePicker" />
 
   <!-- Service repos -->
   <remove-project name="platform/packages/services/Telephony" />
