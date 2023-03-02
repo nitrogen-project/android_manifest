@@ -30,7 +30,7 @@ To initialize your local repository use
 Clone GAPPS
 ---------------------------------------
 
-    git clone https://gitlab.com/ThankYouMario/android_vendor_google_gms /vendor/google/gms -b topaz
+    git clone https://gitlab.com/ThankYouMario/android_vendor_google_gms -b topaz
 
 Then to sync up:
 ----------------
