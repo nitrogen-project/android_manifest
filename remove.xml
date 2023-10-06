@@ -33,9 +33,14 @@
   <remove-project name="device/google/redfin-sepolicy" />
   <remove-project name="device/google/sunfish-kernel" />
   <remove-project name="device/google/sunfish-sepolicy" />
-  <remove-project name="device/mediatek/wembley-sepolicy" />
+  <remove-project name="device/google/tangorpro" />
+  <remove-project name="device/google/tangorpro-kernel" />
+  <remove-project name="device/google/tangorpro-sepolicy" />
   <remove-project name="device/google/gs101" />
   <remove-project name="device/google/gs101-sepolicy" />
+  <remove-project name="device/google/pantah" />
+  <remove-project name="device/google/pantah-kernel" />
+  <remove-project name="device/google/pantah-sepolicy" />
   <remove-project name="device/google/raviole" />
   <remove-project name="device/google/raviole-kernel" />
   <remove-project name="device/google/trout" />
@@ -64,10 +69,7 @@
   <remove-project name="platform/external/android-nn-driver"/>
 
   <!-- Hardware repos -->
-  <remove-project name="platform/hardware/interfaces" />
   <remove-project name="platform/hardware/google/pixel-sepolicy" />
-  <remove-project name="platform/hardware/google/gchips" />
-  <remove-project name="platform/hardware/google/graphics/common" />
 
   <!-- Package repos -->
   <remove-project name="platform/packages/apps/Launcher3" />
@@ -75,7 +77,6 @@
   <remove-project name="platform/packages/apps/SettingsIntelligence" />
   <remove-project name="platform/packages/inputmethods/LatinIME" />
   <remove-project name="platform/packages/apps/ThemePicker" />
-  <remove-project name="platform/packages/modules/Permission" />
   <remove-project name="platform/packages/apps/WallpaperPicker2" />
 
   <!-- Service repos -->
@@ -84,6 +85,4 @@
 
   <!-- System repos -->
   <remove-project name="platform/system/core" />
-  <remove-project name="platform/system/security" />
-  <remove-project name="platform/system/vold" />
 </manifest>

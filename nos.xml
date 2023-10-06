@@ -22,7 +22,7 @@
          revision="thirteen" />
 
     <!-- general -->
-    <project path="build/make" name="android_build_make" remote="nos" revision="13" >
+    <project path="build/make" name="android_build_make" remote="nos" revision="14" >
         <copyfile src="core/root.mk" dest="Makefile" />
         <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
         <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
@@ -32,62 +32,48 @@
         <linkfile src="tools" dest="build/tools" />
     </project>
 
-    <project path="build/soong" name="android_build_soong" remote="nos" revision="13" >
+    <project path="build/soong" name="android_build_soong" remote="nos" revision="14" >
         <linkfile src="root.bp" dest="Android.bp" />
         <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
     </project>
 
-    <project path="bionic" name="android_bionic" remote="nos" revision="13" />
-    <project path="bootable/recovery" name="android_bootable_recovery" remote="nos" revision="13" />
-
-    <!-- qcom -->
-    <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="nos" revision="13"/>
+    <project path="bionic" name="android_bionic" remote="nos" revision="14" />
+    <project path="bootable/recovery" name="android_bootable_recovery" remote="nos" revision="14" />
 
     <!-- frameworks -->
-    <project path="frameworks/base" name="android_frameworks_base" remote="nos" revision="13" />
-    <project path="frameworks/av" name="android_frameworks_av" remote="nos" revision="13" />
+    <project path="frameworks/base" name="android_frameworks_base" remote="nos" revision="14" />
+    <project path="frameworks/av" name="android_frameworks_av" remote="nos" revision="14" />
 
     <!-- external -->
-    <project path="external/dwarves" name="platform/external/dwarves" remote="aosp" revision="3c8f7e8b2cf7ff902b71c42d00fda30f30114b07" />
-    <project path="prebuilts/kernel-build-tools" name="kernel/prebuilts/build-tools" clone-depth="1" remote="aosp" revision="refs/tags/android-13.0.0_r0.15" />
-    <project path="external/armnn" name="android_external_armnn" remote="nos" revision="13" />
-    <project path="external/android-nn-driver" name="android_external_android-nn-driver" remote="nos" revision="13" />
+    <project path="external/armnn" name="android_external_armnn" remote="nos" revision="14" />
+    <project path="external/android-nn-driver" name="android_external_android-nn-driver" remote="nos" revision="14" />
 
     <!-- hardware -->
-    <project path="hardware/interfaces" name="android_hardware_interfaces" remote="nos" revision="13" />
-    <project path="hardware/google/pixel-sepolicy" name="android_hardware_google_pixel-sepolicy" remote="nos" revision="13" />
-    <project path="hardware/google/gchips" name="android_hardware_google_gchips" remote="nos" revision="13"/>
-    <project path="hardware/google/graphics/common" name="android_hardware_google_graphics_common" remote="nos" revision="13"/>
+    <project path="hardware/google/pixel-sepolicy" name="android_hardware_google_pixel-sepolicy" remote="nos" revision="14" />
 
     <!-- packages -->
-    <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="nos" revision="13" />
-    <project path="packages/apps/NitrogenSettings" name="android_packages_apps_NitrogenSettings" remote="nos" revision="13" />
-    <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="nos" revision="13" />
-    <project path="packages/apps/SettingsIntelligence" name="android_packages_apps_SettingsIntelligence" remote="nos" revision="13" />
-    <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" remote="nos" revision="13" />
-    <project path="packages/apps/ThemePicker" name="android_packages_apps_ThemePicker" remote="nos" revision="13" />
-    <project path="packages/modules/Permission" name="android_packages_modules_Permission" remote="nos" revision="13" />
-    <project path="packages/apps/WallpaperPicker2" name="android_packages_apps_WallpaperPicker2" remote="nos" revision="13" />
-
-    <!-- prebuilts -->
-    <project path="prebuilts/tools-lineage" name="android_prebuilts_tools-lineage" remote="nos" revision="13" />
+    <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="nos" revision="14" />
+    <project path="packages/apps/NitrogenSettings" name="android_packages_apps_NitrogenSettings" remote="nos" revision="14" />
+    <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="nos" revision="14" />
+    <project path="packages/apps/SettingsIntelligence" name="android_packages_apps_SettingsIntelligence" remote="nos" revision="14" />
+    <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" remote="nos" revision="14" />
+    <project path="packages/apps/ThemePicker" name="android_packages_apps_ThemePicker" remote="nos" revision="14" />
+    <project path="packages/apps/WallpaperPicker2" name="android_packages_apps_WallpaperPicker2" remote="nos" revision="14" />
 
     <!-- services -->
-    <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="nos" revision="13" />
-    <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="nos" revision="13" />
+    <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="nos" revision="14" />
+    <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="nos" revision="14" />
 
     <!-- system -->
-    <project path="system/core" name="android_system_core" remote="nos" revision="13" />
-    <project path="system/security" name="android_system_security" remote="nos" revision="13" />
-    <project path="system/vold" name="android_system_vold" remote="nos" revision="13" />
+    <project path="system/core" name="android_system_core" remote="nos" revision="14" />
 
     <!-- vendor -->
-    <project path="vendor/nitrogen" name="android_vendor_nitrogen" remote="nos" revision="13" />
-    <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="nos" revision="13" />
-    <project path="vendor/qcom/opensource/interfaces" name="android_vendor_qcom_opensource_interfaces" remote="nos" revision="13" />
-    <project path="vendor/qcom/opensource/audio" name="android_vendor_qcom_opensource_audio" remote="nos" revision="13" />
+    <project path="vendor/nitrogen" name="android_vendor_nitrogen" remote="nos" revision="14" />
 
-    <!-- FaceUnlock -->
-    <project path="external/faceunlock" name="external_faceunlock" remote="pixel-gitlab-self-hosted" />
-    <project path="packages/apps/FaceUnlockService" name="PixelExperience/packages_apps_FaceUnlockService" remote="github" revision="thirteen" />
+    <!-- Device and Kernel -->
+    <project path="device/google/gs101" name="device_google_gs101" remote="nos" revision="14" />
+    <project path="device/google/bluejay" name="device_google_bluejay" remote="nos" revision="14" />
+    <project path="device/google/gs101-sepolicy" name="device_google_gs101-sepolicy" remote="nos" revision="14" />
+    <project path="vendor/adevtool" name="adevtool" remote="nos" revision="14"/>
+    <project path="vendor/state" name="vendor_state" remote="nos" revision="14" />
 </manifest>
